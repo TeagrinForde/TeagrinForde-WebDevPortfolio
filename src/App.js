@@ -1,7 +1,8 @@
 import React from 'react';
-import NavBar from './components/NavBar.js'; //importing child components
+import Navigation from './components/Navigation.js'; //importing child components
+import './App.css';
 
 function App() { //parent component
-  return <NavBar />;//child component beind injected
+  return <Navigation />;//child component beind injected
 }
 export default App;
