@@ -19,6 +19,22 @@ html {
     color: white;
 }
 
+#skillsTools {
+    background-image: url('./img/skillsTools.PNG');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    color: navy;
+}
+
+#contact {
+    background-image: url('./img/contact.PNG');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    color: white;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -31,6 +47,7 @@ html {
     border-radius: 230px;
 }
 
+.currently,
 .aboutMe,
 .bold {
     color: purple;
@@ -64,4 +81,12 @@ html {
 
 .iconName {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.icon {
+    background-color: transparent;
+}
+
+.stContainer {
+    padding-left: 20px;
 }
