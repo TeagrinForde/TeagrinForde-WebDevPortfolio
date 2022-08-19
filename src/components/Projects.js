@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 export default function Projects() {
     return (
-        <dev>
+        <dev id='projects'>
       <Card className="text-black" id="about">
         <Card.Img
           src="https://getwallpapers.com/wallpaper/full/f/3/3/765105-technology-background-images-1920x1080-free-download.jpg"

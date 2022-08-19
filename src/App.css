@@ -7,14 +7,26 @@
     background-image: url('./img/about.PNG');
     background-size: cover;
     position: relative;
-    top: 0;
-    left: 0;
     min-width: 100%;
     min-height: 100%;
 }
 
 #profilePic {
     background: url('./img/ProfilePic.jpg');
-    max-width: 100%;
-    height: auto;
+}
+
+.aboutMe,
+.bold {
+    color: purple;
+}
+
+.question {
+    color: navy
+}
+
+.link {
+    color: navy;
+    text-decoration-color: purple;
+    font-weight: 700;
+    font-style: italic;
 }
