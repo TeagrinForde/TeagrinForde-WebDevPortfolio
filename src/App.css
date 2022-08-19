@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
 #navbar {
     background-color: purple;
     opacity: 0.5;
@@ -6,13 +14,21 @@
 #about {
     background-image: url('./img/about.PNG');
     background-size: cover;
-    position: relative;
     min-width: 100%;
     min-height: 100%;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 #profilePic {
-    background: url('./img/ProfilePic.jpg');
+    max-height: 300px;
+    padding-top: 20px;
+    border-radius: 230px;
 }
 
 .aboutMe,
@@ -29,4 +45,23 @@
     text-decoration-color: purple;
     font-weight: 700;
     font-style: italic;
+}
+
+.containerIcons {
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.containerIcons .boxIcon {
+    height: 140px;
+}
+
+.iconName {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }

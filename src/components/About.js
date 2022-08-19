@@ -1,16 +1,20 @@
 import React from "react";
+import Pic from "../img/ProfilePic.jpg";
 
 export default function About() {
   return (
-    <div className="text-white" class="container p-5" id="about">
-      <div id="center">
-        <div class="row">
+    <div className="container p-5" id="about">
+      <div>
+        <div class="row center">
           <h1 class="question">Who is Teagrin Forde?</h1>
         </div>
 
-        <div class="row p-3">
-          <div className="col-3" id="profilePic" alt="Teagrin Forde"></div>
-          <div class="col-6">
+        <div class="row p-3 container-content center">
+          <div className="col-3 sm-col-12" class='container-img-profile center col-3'>
+            <img src={Pic} id="profilePic" alt="Teagrin Forde"></img>
+          </div>
+
+          <div class="col-6 container-text">
             <h4 class="aboutMe">
               Creative, logic-driven Full-Stack developer with background and
               experience in education.
@@ -41,14 +45,11 @@ export default function About() {
               my environment through collaboration, organiation, and
               problem-solving. I am currently seeking a full-time position, so
               feel free to reach out and{" "}
-              <a href="#contact" class="link">
-                say hello
-              </a>
-              !
+              <a href="#contact" class="link">say hello</a>!
             </div>
             <br></br>
-          </div>
-          <div class="bold">Last updated August 2022</div>
+            <div class="bold">Last updated August 2022</div>
+          </div>          
         </div>
       </div>
     </div>
