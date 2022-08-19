@@ -1,0 +1,20 @@
+#navbar {
+    background-color: purple;
+    opacity: 0.5;
+}
+
+#about {
+    background-image: url('./img/about.PNG');
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#profilePic {
+    background: url('./img/ProfilePic.jpg');
+    max-width: 100%;
+    height: auto;
+}
