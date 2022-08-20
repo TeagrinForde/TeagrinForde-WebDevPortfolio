@@ -33,6 +33,14 @@ button:hover {
     color: white;
 }
 
+#projects {
+    background-image: url('./img/projects.PNG');
+    background-size: cover;
+    min-width: 100%;
+    max-width: 100%;
+    color: white;
+}
+
 #skillsTools {
     background-image: url('./img/skillsTools.PNG');
     background-size: cover;
@@ -74,6 +82,10 @@ button:hover {
 .aboutMe,
 .bold {
     color: purple;
+}
+
+.currently {
+    font-style: italic;
 }
 
 .question {

@@ -1,21 +1,26 @@
 import React from 'react';
-import Card from "react-bootstrap/Card";
 
 export default function Projects() {
     return (
-        <dev id='projects'>
-      <Card className="text-black" id="about">
-        <Card.Img
-          src="https://getwallpapers.com/wallpaper/full/f/3/3/765105-technology-background-images-1920x1080-free-download.jpg"
-          alt="Card image"
-        />
-        <Card.ImgOverlay>
-          <Card.Title>Projects</Card.Title>
-          
-          <Card.Text>Last updated August 2022</Card.Text>
-        </Card.ImgOverlay>
-      </Card>
-    </dev>
+      <section className="container col-10 p-4" class="row" id="projects">
+      <div className="container p-5" class="projectContainer">
+        <h1 class='center'>Projects</h1>
 
+        <div className="container" class="containerProjects">
+
+         
+        </div>
+
+        <h4 class="currently center">Currently working on</h4>
+        <h6 class='center'>
+          <strong>Georgia Institute of Technology Full-Stack Web Development Bootcamp
+          </strong>
+        </h6>
+        <h6 class='center'>Applying and interviewing for positions</h6>
+        <h6 class='center'>MERN Book Search Engine</h6>
+        <h6 class='center'>React-Redux Store</h6>
+        <h6 class='center'>CK-12 Math Assessment Writer</h6>
+      </div>
+    </section>
     );
 };

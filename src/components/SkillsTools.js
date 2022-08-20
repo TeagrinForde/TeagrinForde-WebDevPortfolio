@@ -87,15 +87,9 @@ export default function SkillsTools() {
           </div>
         </div>
 
-        <h4 class="currently center">Currently working on</h4>
-        <h6 class='center'>
-          <strong>Georgia Institute of Technology Full-Stack Web Development Bootcamp
-          </strong>
-        </h6>
-        <h6 class='center'>Applying and interviewing for positions</h6>
-        <h6 class='center'>MERN Book Search Engine</h6>
-        <h6 class='center'>React-Redux Store</h6>
-        <h6 class='center'>CK-12 Math Assessment Writer</h6>
+        <h4 class="currently center">Currently exploring</h4>
+        <h6 class='center'>MERN & State</h6>
+        <h6 class='center'>AWS</h6>
       </div>
     </section>
   );
