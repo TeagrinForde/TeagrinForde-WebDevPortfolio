@@ -6,9 +6,23 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 3rem
+}
+
+button,
 #navbar {
-    background-color: purple;
+    background-color: purple !important;
     opacity: 0.5;
+}
+
+#navbar:hover,
+button:hover {
+    opacity: 1;
 }
 
 #about {
@@ -25,6 +39,8 @@ html {
     min-width: 100%;
     min-height: 100%;
     color: navy;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #contact {
@@ -33,6 +49,13 @@ html {
     min-width: 100%;
     min-height: 100%;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#formContain {
+    text-align: center;
+    padding-top: 25px;
 }
 
 .center {
@@ -83,8 +106,17 @@ html {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+.iconMini,
 .icon {
     background-color: transparent;
+}
+
+.iconMini {
+    opacity: 0.7;
+}
+
+.iconMini:hover {
+    opacity: 1;
 }
 
 .stContainer {

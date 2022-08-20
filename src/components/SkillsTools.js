@@ -3,9 +3,9 @@ import React from "react";
 export default function SkillsTools() {
   const icon = { width: "5rem" };
   return (
-    <section className="container col-10" class="row" id="skillsTools">
+    <section className="container col-10 p-4" class="row" id="skillsTools">
       <div className="container p-5" class="stContainer">
-        <h1>Skills&Tools</h1>
+        <h1 class='center'>Skills&Tools</h1>
 
         <div className="container" class="containerIcons">
           <div className="card" class="icon" alt='Bable' style={icon}>
@@ -87,13 +87,10 @@ export default function SkillsTools() {
           </div>
         </div>
 
-        <h4 class="currently">Currently working on:</h4>
-        <h6>
-          I am completing the{" "}
-          <strong>
-            Georgia Institute of Technology Full-Stack Web Development Bootcamp
-          </strong>{" "}
-          and seeking employment.
+        <h4 class="currently center">Currently working on</h4>
+        <h6 class='center'>
+          <strong>Georgia Institute of Technology Full-Stack Web Development Bootcamp
+          </strong>
         </h6>
       </div>
     </section>
