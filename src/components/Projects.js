@@ -5,52 +5,52 @@ export default function Projects() {
   const js = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fjs-128.png&f=1&nofb=1"
-      alt="JavaScript"
+      alt="JavaScript" style={icon}
     />
   );
   const css = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fcss-512.png&f=1&nofb=1"
-      alt="CSS3"
+      alt="CSS3" style={icon}
     />
   );
   const handlebars = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.8ROvh9y7LAVuOHFijKEnpQHaHa%26pid%3DApi&f=1"
       alt="handlebars.js"
-      class="round"
+      class="round" style={icon}
     />
   );
   const heroku = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipground.com%2Fimages%2Fheroku-logo-7.jpg&f=1&nofb=1"
       alt="heroku"
-      class="round"
+      class="round" style={icon}
     />
   );
   const sequelize = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhyunseob.github.io%2Fimages%2Fsequelizejs.png&f=1&nofb=1"
-      alt="Sequelize"
+      alt="Sequelize" style={icon}
     />
   );
   const node = (
     <img
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-      alt="Node.js"
+      alt="Node.js" style={icon}
     />
   );
   const express = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mementotech.in%2Fassets%2Fimages%2Ficons%2Fexpress.png&f=1&nofb=1"
-      alt="express.js"
+      alt="express.js" style={icon}
     />
   );
   const GitHub = (
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style={icon} />
   );
   const go = (
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fgo-icon-9.png&f=1&nofb=1"/>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fgo-icon-9.png&f=1&nofb=1" style={icon}/>
   );
 
   return (
@@ -61,7 +61,7 @@ export default function Projects() {
         <div className="container" class="containerProjects">
           <div className="container" class="project">
             <div className="container  col-4">
-              <div className="container">
+              <div>
                 <h4 class="title">Let's Tech About It</h4>
                 <h6 class="description">
                   A CMS-style blog site (similar to Wordpress) where developers
@@ -70,7 +70,7 @@ export default function Projects() {
                 </h6>
               </div>
 
-              <div className="container row" style={icon} id="projectTags">
+              <div style={icon} id="projectTags">
                 {js}
                 {css}
                 {handlebars}
@@ -80,7 +80,7 @@ export default function Projects() {
                 {express}
               </div>
 
-              <div className="container row" style={icon}>
+              <div className="container" style={icon}>
                 <a
                   href="https://github.com/TeagrinForde/Lets-Tech-About-it-MVC-Blog-V14.0.1"
                   alt="Project on GitHub"
