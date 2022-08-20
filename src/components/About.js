@@ -3,18 +3,19 @@ import Pic from "../img/ProfilePic.jpg";
 
 export default function About() {
   return (
-    <div className="container col-10" id="about">
+    <div className="container col-10 p-3" id="about">
       <div>
         <div class="row center">
           <h1 class="question">Who is Teagrin Forde?</h1>
         </div>
 
-        <div class="row p-3 container-content center">
-          <div className="col-3 sm-col-12" class='container-img-profile center col-3'>
+        <div class="row container center">
+
+          <div className="col-lg-3 col-sm-12 col-md-12" class='container-img-profile center col-3'>
             <img src={Pic} id="profilePic" alt="Teagrin Forde"></img>
           </div>
 
-          <div class="col-6 container-text">
+          <div class="col-lg-6 col-sm-12 col-md-12 container AboutMe">
             <h4 class="aboutMe">
               Creative, logic-driven Full-Stack developer with background and
               experience in education.
