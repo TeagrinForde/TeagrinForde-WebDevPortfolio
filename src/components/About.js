@@ -17,8 +17,8 @@ export default function About() {
 
           <div class="col-lg-6 col-sm-12 col-md-12 container AboutMe">
             <h4 class="aboutMe">
-              Creative, logic-driven Full-Stack developer with background and
-              experience in education.
+              Creative, logic-driven Full-Stack developer with strong background and
+              experience in mathematics education.
             </h4>
             <div>
               I'm a life-long learner the enjoys creating cutting-edge websites

@@ -66,6 +66,10 @@ button:hover {
     padding-top: 25px;
 }
 
+#projectTags {
+    display: flex;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -78,6 +82,7 @@ button:hover {
     border-radius: 230px;
 }
 
+.title,
 .currently,
 .aboutMe,
 .bold {
@@ -88,6 +93,7 @@ button:hover {
     font-style: italic;
 }
 
+.description,
 .question {
     color: navy
 }
@@ -133,4 +139,8 @@ button:hover {
 
 .stContainer {
     padding-left: 20px;
+}
+
+.round {
+    border-radius: 30%;
 }
