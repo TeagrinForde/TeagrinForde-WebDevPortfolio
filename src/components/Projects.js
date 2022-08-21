@@ -1,7 +1,9 @@
 import React from "react";
+import letsTech from '../img/letsTech.png';
 
 export default function Projects() {
-  const icon = { width: "5rem" };
+  const icon = { width: "3rem" };
+  const computer = { width: "30rem"};
   const js = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fjs-128.png&f=1&nofb=1"
@@ -54,23 +56,23 @@ export default function Projects() {
   );
 
   return (
-    <section className="container col-10 p-4" class="row" id="projects">
+    <section className="container col-10 p-5" class="row" id="projects">
       <div className="container p-2" class="projectContainer">
         <h1 class="center">Projects</h1>
 
-        <div className="container" class="containerProjects">
-          <div className="container" class="project">
-            <div className="container  col-4">
+        <div class="containerProjects center">
+          <div class="project center">
+            <div className="container col-4">
               <div>
-                <h4 class="title">Let's Tech About It</h4>
-                <h6 class="description">
+                <h4 class="title center p-3">Let's Tech About It</h4>
+                <h6 class="description p-2">
                   A CMS-style blog site (similar to Wordpress) where developers
                   can publish their blog posts and comment on other developers'
                   posts as well. Implements an MVC file structure.
                 </h6>
               </div>
 
-              <div style={icon} id="projectTags">
+              <div class='p-3' style={icon} id="projectTags">
                 {js}
                 {css}
                 {handlebars}
@@ -80,7 +82,7 @@ export default function Projects() {
                 {express}
               </div>
 
-              <div className="container" style={icon}>
+              <div class='p-3' style={icon} id="projectLinks">
                 <a
                   href="https://github.com/TeagrinForde/Lets-Tech-About-it-MVC-Blog-V14.0.1"
                   alt="Project on GitHub"
@@ -97,8 +99,9 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-            <div className="container col-4" class="projectImage">
-              <img src="" alt="" />
+
+            <div class='p-5'>
+              <img src={letsTech} alt="Visual of deployed site" style={computer} class='computer'/>
             </div>
           </div>
         </div>

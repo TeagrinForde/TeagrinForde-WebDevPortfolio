@@ -66,8 +66,16 @@ button:hover {
     padding-top: 25px;
 }
 
+
+#projectLinks,
 #projectTags {
     display: flex;
+}
+
+#profilePic {
+    max-height: 300px;
+    padding-top: 20px;
+    border-radius: 230px;
 }
 
 .center {
@@ -76,10 +84,10 @@ button:hover {
     flex-direction: row;
 }
 
-#profilePic {
-    max-height: 300px;
-    padding-top: 20px;
-    border-radius: 230px;
+.computer {
+    max-width: 90%;
+    border-radius: 30%;
+    display: flex;
 }
 
 .title,
@@ -89,6 +97,12 @@ button:hover {
     color: purple;
 }
 
+.title {
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 50%;
+}
+
 .currently {
     font-style: italic;
 }
@@ -96,6 +110,12 @@ button:hover {
 .description,
 .question {
     color: navy
+}
+
+.description {
+    background-color: pink;
+    opacity: 0.7;
+    border-radius: 25%;
 }
 
 .link {
