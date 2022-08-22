@@ -49,11 +49,9 @@ export default function SkillsTools() {
         <div className="container" class="containerIcons">
           <div className="card" class="icon" alt='JavaScript' style={icon}>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-            
           </div>
           <div className="card" class="icon" alt='Jest' style={icon}>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
-            <p class="iconName">Jest</p>
           </div>
           <div className="card" class="icon" alt='jQuery' style={icon}>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" />
