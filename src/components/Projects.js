@@ -35,6 +35,15 @@ export default function Projects() {
   const html = (
   <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fhtml-xxl.png&f=1&nofb=1' alt='HTML' class='round' style={icon}/> 
   );
+  const react = (
+    <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Freact-1-logo-black-and-white.png&f=1&nofb=1' atl='React' class='round' style={icon}/>
+  );
+  const graphQL = (
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fgraphql-logo-png-transparent.png&f=1&nofb=1" atl="graphQL" class='round' style={icon}/>
+  );
+  const mongo = (
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgetdrawings.com%2Ffree-icon%2Fmongodb-icon-59.jpg&f=1&nofb=1" alt='MongoDB' class='round' style={icon}/>
+  );
   const sequelize = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhyunseob.github.io%2Fimages%2Fsequelizejs.png&f=1&nofb=1"
@@ -205,6 +214,52 @@ export default function Projects() {
 
             <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
               <img src={jate} alt="Visual of deployed site" class='computer'/>
+            </div>
+
+          </div>
+
+          <div class="project row center p-5">
+
+            <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
+              {/* <img src={comingSoon} alt="Visual of deployed site" class='computer'/> */}
+            </div>
+
+            <div className="col-lg-5 col-sm-12 col-md-12 container"> 
+              <div>
+                <h3 class="title center">Interactive MERN Stack SPA</h3>
+                <h6 class="description p-5 center">
+                COMING SOON!
+                </h6>
+              </div>
+
+              <div class='p-1 container center' style={icon} id="projectTags">
+                {js}  
+                {css}  
+                {react}
+                {graphQL}
+                {mongo}
+                {heroku}
+                {sequelize}
+                {node}
+                {express}
+              </div>
+
+              <div class='p-3 container center' style={icon} id="projectLinks">
+                <a
+                  href="#"
+                  alt="Project on GitHub"
+                  target="blank"
+                >
+                  {GitHub}
+                </a>
+                <a
+                  href="# "
+                  target="blank"
+                  alt="Visit Site"
+                >
+                  {go}
+                </a>
+              </div>
             </div>
 
           </div>

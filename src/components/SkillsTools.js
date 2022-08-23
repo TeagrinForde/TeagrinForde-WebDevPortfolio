@@ -88,6 +88,7 @@ export default function SkillsTools() {
         <h4 class="currently center">Currently exploring</h4>
         <h6 class='center'>MERN & State</h6>
         <h6 class='center'>AWS</h6>
+        <h6 class='center'>Python</h6>
       </div>
     </section>
   );
