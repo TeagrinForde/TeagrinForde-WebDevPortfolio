@@ -61,6 +61,16 @@ button:hover {
     padding-bottom: 20px;
 }
 
+#testimonials {
+    background-image: url('./img/testimonials.PNG');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #formContain {
     text-align: center;
     padding-top: 25px;
@@ -88,7 +98,6 @@ button:hover {
 .computer {
     height: 300px;
     border-radius: 30%;
-    z-index: 1;
 }
 
 .title,
@@ -109,13 +118,13 @@ button:hover {
 
 .project {
     background-color: pink;
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 50%;
     z-index: -1;
 }
 
 .link {
-    color: navy;
+    color: white;
     text-decoration-color: purple;
     font-weight: 700;
     font-style: italic;
