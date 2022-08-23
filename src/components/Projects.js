@@ -79,7 +79,7 @@ export default function Projects() {
               <div>
                 <h3 class="title center">Let's Tech About It</h3>
                 <h6 class="description p-5">
-                  A CMS-style blog site (similar to Wordpress) where developers
+                  A full-stack, CMS-style blog site (similar to Wordpress) where developers
                   can publish their blog posts and comment on other developers'
                   posts as well. Implements an MVC file structure.
                 </h6>
