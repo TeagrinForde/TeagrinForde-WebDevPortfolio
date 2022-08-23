@@ -37,7 +37,7 @@ button:hover {
     background-image: url('./img/projects.PNG');
     background-size: cover;
     min-width: 100%;
-    max-width: 100%;
+    max-height: 100%;
     color: white;
 }
 
@@ -72,6 +72,7 @@ button:hover {
     display: flex;
 }
 
+
 #profilePic {
     max-height: 300px;
     padding-top: 20px;
@@ -85,9 +86,9 @@ button:hover {
 }
 
 .computer {
-    max-width: 90%;
+    height: 300px;
     border-radius: 30%;
-    display: flex;
+    z-index: 1;
 }
 
 .title,
@@ -95,12 +96,6 @@ button:hover {
 .aboutMe,
 .bold {
     color: purple;
-}
-
-.title {
-    background-color: white;
-    opacity: 0.6;
-    border-radius: 50%;
 }
 
 .currently {
@@ -112,10 +107,11 @@ button:hover {
     color: navy
 }
 
-.description {
+.project {
     background-color: pink;
     opacity: 0.7;
-    border-radius: 25%;
+    border-radius: 50%;
+    z-index: -1;
 }
 
 .link {

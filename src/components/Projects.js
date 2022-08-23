@@ -1,9 +1,11 @@
 import React from "react";
 import letsTech from '../img/letsTech.png';
+import jate from '../img/jate.png';
+import gallivanter from '../img/gallivanter.PNG';
 
 export default function Projects() {
-  const icon = { width: "3rem" };
-  const computer = { width: "30rem"};
+  const icon = { width: "2rem"};
+
   const js = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fjs-128.png&f=1&nofb=1"
@@ -30,6 +32,9 @@ export default function Projects() {
       class="round" style={icon}
     />
   );
+  const html = (
+  <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fhtml-xxl.png&f=1&nofb=1' alt='HTML' class='round' style={icon}/> 
+  );
   const sequelize = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhyunseob.github.io%2Fimages%2Fsequelizejs.png&f=1&nofb=1"
@@ -48,6 +53,9 @@ export default function Projects() {
       alt="express.js" style={icon}
     />
   );
+  const webpack = (
+    <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fwebpack-icon-logo-png-transparent.png&f=1&nofb=1' alt='Webpack' class='round' style={icon}/>
+  );
   const GitHub = (
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style={icon} />
   );
@@ -56,25 +64,27 @@ export default function Projects() {
   );
 
   return (
-    <section className="container col-10 p-5" class="row" id="projects">
-      <div className="container p-2" class="projectContainer">
-        <h1 class="center">Projects</h1>
+    <div className="container col-10 p-5" id="projects">
 
-        <div class="containerProjects center">
-          <div class="project center">
-            <div className="container col-4">
+        <div class='row center'>
+        <h1 class="center p-3">Projects</h1>
+        </div>
+
+          <div class="project row center p-5">
+
+            <div className="col-lg-5 col-sm-12 col-md-12 container"> 
               <div>
-                <h4 class="title center p-3">Let's Tech About It</h4>
-                <h6 class="description p-2">
+                <h3 class="title center">Let's Tech About It</h3>
+                <h6 class="description p-5">
                   A CMS-style blog site (similar to Wordpress) where developers
                   can publish their blog posts and comment on other developers'
                   posts as well. Implements an MVC file structure.
                 </h6>
               </div>
 
-              <div class='p-3' style={icon} id="projectTags">
-                {js}
-                {css}
+              <div class='p-1 container center' style={icon} id="projectTags">
+                {js}  
+                {css}  
                 {handlebars}
                 {heroku}
                 {sequelize}
@@ -82,7 +92,7 @@ export default function Projects() {
                 {express}
               </div>
 
-              <div class='p-3' style={icon} id="projectLinks">
+              <div class='p-3 container center' style={icon} id="projectLinks">
                 <a
                   href="https://github.com/TeagrinForde/Lets-Tech-About-it-MVC-Blog-V14.0.1"
                   alt="Project on GitHub"
@@ -100,13 +110,102 @@ export default function Projects() {
               </div>
             </div>
 
-            <div class='p-5'>
-              <img src={letsTech} alt="Visual of deployed site" style={computer} class='computer'/>
+            <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
+              <img src={letsTech} alt="Visual of deployed site" class='computer'/>
             </div>
-          </div>
-        </div>
 
-        <h4 class="currently center">Currently working on</h4>
+          </div>
+
+          <div class="project row center p-5">
+
+            <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
+              <img src={gallivanter} alt="Visual of deployed site" class='computer'/>
+            </div>
+
+            <div className="col-lg-5 col-sm-12 col-md-12 container"> 
+              <div>
+                <h3 class="title center">Gallivanter</h3>
+                <h6 class="description p-5">
+                Gallivanter is an application that provides necessary travel information a user may need before planning a trip. This project was created usign an Agile framework. My responsibilities included login authorization and authentication and overall UI/UX design.
+                </h6>
+              </div>
+
+              <div class='p-1 container center' style={icon} id="projectTags">
+                {js}  
+                {css}  
+                {handlebars}
+                {heroku}
+                {sequelize}
+                {node}
+                {express}
+              </div>
+
+              <div class='p-3 container center' style={icon} id="projectLinks">
+                <a
+                  href="https://github.com/TeagrinForde/Gallivanter"
+                  alt="Project on GitHub"
+                  target="blank"
+                >
+                  {GitHub}
+                </a>
+                <a
+                  href="https://quiet-eyrie-99473.herokuapp.com/ "
+                  target="blank"
+                  alt="Visit Site"
+                >
+                  {go}
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="project row center p-5">
+
+            <div className="col-lg-5 col-sm-12 col-md-12 container"> 
+              <div>
+                <h3 class="title center">Just Another Text-Editor</h3>
+                <h6 class="description p-5">
+                JATE is an on/off-line PWA, text editor that runs in the browser as a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser, with an MVC file structure.
+                </h6>
+              </div>
+
+              <div class='p-1 container center' style={icon} id="projectTags">
+                {js}  
+                {css}
+                {html}  
+                {heroku}
+                {sequelize}
+                {node}
+                {express}
+                {webpack}
+              </div>
+
+              <div class='p-3 container center' style={icon} id="projectLinks">
+                <a
+                  href="https://github.com/TeagrinForde/PWA-Notes-Code-V19.0.1"
+                  alt="Project on GitHub"
+                  target="blank"
+                >
+                  {GitHub}
+                </a>
+                <a
+                  href="https://jate-tf.herokuapp.com/ "
+                  target="blank"
+                  alt="Visit Site"
+                >
+                  {go}
+                </a>
+              </div>
+            </div>
+
+            <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
+              <img src={jate} alt="Visual of deployed site" class='computer'/>
+            </div>
+
+          </div>
+
+        <h4 class="currently center p-4">Currently working on</h4>
         <h6 class="center">
           <strong>
             Georgia Institute of Technology Full-Stack Web Development Bootcamp
@@ -116,7 +215,7 @@ export default function Projects() {
         <h6 class="center">MERN Book Search Engine</h6>
         <h6 class="center">React-Redux Store</h6>
         <h6 class="center">CK-12 Math Assessment Writer</h6>
-      </div>
-    </section>
+
+    </div>
   );
 }

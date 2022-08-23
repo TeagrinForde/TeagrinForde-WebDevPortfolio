@@ -11,11 +11,11 @@ export default function About() {
 
         <div class="row container center">
 
-          <div className="col-lg-3 col-sm-12 col-md-12" class='container-img-profile center col-3'>
+          <div className="col-lg-3 col-sm-12 col-md-12" class='center col-3'>
             <img src={Pic} id="profilePic" alt="Teagrin Forde"/>
           </div>
 
-          <div class="col-lg-6 col-sm-12 col-md-12 container AboutMe">
+          <div class="col-lg-6 col-sm-12 col-md-12 container">
             <h4 class="aboutMe">
               Creative, logic-driven Full-Stack developer with strong background and
               experience in mathematics education.
