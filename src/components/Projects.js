@@ -138,7 +138,7 @@ export default function Projects() {
               <div>
                 <h3 class="title center">Gallivanter</h3>
                 <h6 class="description p-5">
-                Gallivanter is an application that provides necessary travel information a user may need before planning a trip. This project was created usign an Agile framework. My responsibilities included login authorization and authentication and overall UI/UX design.
+                Gallivanter is an application that provides necessary travel information a user may need before planning a trip. This project was created usign an Agile framework. My responsibilities included login authorization and authentication and overall responsive UI/UX design.
                 </h6>
               </div>
 
@@ -270,7 +270,7 @@ export default function Projects() {
             Georgia Institute of Technology Full-Stack Web Development Bootcamp
           </strong>
         </h6>
-        <h6 class="center">Applying and interviewing for positions</h6>
+        <h6 class="center">Applying and interviewing for web development positions</h6>
         <h6 class="center">MERN Book Search Engine</h6>
         <h6 class="center">React-Redux Store</h6>
         <h6 class="center">CK-12 Math Assessment Writer</h6>
