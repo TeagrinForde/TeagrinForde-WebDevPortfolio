@@ -41,6 +41,9 @@ export default function Projects() {
       alt="Sequelize" style={icon}
     />
   );
+  const mySQL = (
+    <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fmysql-xxl.png&f=1&nofb=1' alt='MySQL' style={icon}/>
+  );
   const node = (
     <img
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
@@ -134,6 +137,7 @@ export default function Projects() {
                 {js}  
                 {css}  
                 {handlebars}
+                {mySQL}
                 {heroku}
                 {sequelize}
                 {node}
