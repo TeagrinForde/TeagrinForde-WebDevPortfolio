@@ -46,7 +46,7 @@ export default function About() {
               my environment through collaboration, organiation, and
               problem-solving. I am currently seeking a full-time position, so
               feel free to reach out and{" "}
-              <a href="#contact" class="link">say hello</a>!
+              <a href="#contact" class="link" alt='Contact Me'>say hello</a>!
             </div>
             <br></br>
             <div class="bold">Last updated August 2022</div>

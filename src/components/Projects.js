@@ -219,7 +219,9 @@ export default function Projects() {
         <h6 class="center">MERN Book Search Engine</h6>
         <h6 class="center">React-Redux Store</h6>
         <h6 class="center">CK-12 Math Assessment Writer</h6>
-
+        <h6 class="center">
+          <a href='#myStory' alt='My Story' class="link">
+          Follow My Journey Here</a></h6>
     </div>
   );
 }
