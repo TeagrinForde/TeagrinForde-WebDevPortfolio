@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TeagrinForde-WebDevPortfolio/static/css/main.24183e1b.css",
+    "main.js": "/TeagrinForde-WebDevPortfolio/static/js/main.895255fb.js",
+    "static/media/projects.PNG": "/TeagrinForde-WebDevPortfolio/static/media/projects.02566df95d3bcfe10e3d.PNG",
+    "static/media/myStory.PNG": "/TeagrinForde-WebDevPortfolio/static/media/myStory.6b422934a219f77ba19a.PNG",
+    "static/media/gallivanter.PNG": "/TeagrinForde-WebDevPortfolio/static/media/gallivanter.63e34cf3758f17c63844.PNG",
+    "static/media/about.PNG": "/TeagrinForde-WebDevPortfolio/static/media/about.4e9824afa29bcd755524.PNG",
+    "static/media/letsTech.png": "/TeagrinForde-WebDevPortfolio/static/media/letsTech.429e934ae6f99cac0c51.png",
+    "static/media/testimonials.PNG": "/TeagrinForde-WebDevPortfolio/static/media/testimonials.9669e7f608b88d536f35.PNG",
+    "static/media/jate.png": "/TeagrinForde-WebDevPortfolio/static/media/jate.b9a97914cf63bb0e1918.png",
+    "static/media/contact.PNG": "/TeagrinForde-WebDevPortfolio/static/media/contact.ed9bdf722a76eb978510.PNG",
+    "static/media/skillsTools.PNG": "/TeagrinForde-WebDevPortfolio/static/media/skillsTools.01423fb5ec8090fde226.PNG",
+    "static/media/ProfilePic.jpg": "/TeagrinForde-WebDevPortfolio/static/media/ProfilePic.144c1265488be8e2d6a3.jpg",
+    "static/media/hunter.PNG": "/TeagrinForde-WebDevPortfolio/static/media/hunter.c314d71cd5ee6ed8c921.PNG",
+    "index.html": "/TeagrinForde-WebDevPortfolio/index.html",
+    "main.24183e1b.css.map": "/TeagrinForde-WebDevPortfolio/static/css/main.24183e1b.css.map",
+    "main.895255fb.js.map": "/TeagrinForde-WebDevPortfolio/static/js/main.895255fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24183e1b.css",
+    "static/js/main.895255fb.js"
+  ]
+}
