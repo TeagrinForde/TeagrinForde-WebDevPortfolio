@@ -74,6 +74,9 @@ export default function Projects() {
   const go = (
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fgo-icon-9.png&f=1&nofb=1" style={icon}/>
   );
+  const comingSoon = (
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F404%2F406%2Foriginal%2Fpurple-coming-soon-neon-icon-vector.jpg&f=1&nofb=1" alt='Coming Soon!' class="computer"/>
+  );
 
   return (
     <div className="container col-10 p-5" id="projects">
@@ -221,7 +224,7 @@ export default function Projects() {
           <div class="project row center p-5">
 
             <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
-              {/* <img src={comingSoon} alt="Visual of deployed site" class='computer'/> */}
+              {comingSoon}
             </div>
 
             <div className="col-lg-5 col-sm-12 col-md-12 container"> 

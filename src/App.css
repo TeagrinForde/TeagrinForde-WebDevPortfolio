@@ -33,6 +33,14 @@ button:hover {
     color: white;
 }
 
+#myStory {
+    background-image: url('./img/myStory.PNG');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    color: white;
+}
+
 #projects {
     background-image: url('./img/projects.PNG');
     background-size: cover;
@@ -169,4 +177,5 @@ button:hover {
 .testPeep {
     border-radius: 40%;
     filter: grayscale(100%);
+    max-width: 30%;
 }

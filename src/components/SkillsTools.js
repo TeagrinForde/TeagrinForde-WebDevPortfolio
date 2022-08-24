@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function SkillsTools() {
-  const icon = { width: "5rem" };
+  const icon = { width: "4rem" };
   return (
     <section className="container col-10 p-4" class="row" id="skillsTools">
       <div className="container p-5" class="stContainer">
@@ -46,6 +46,7 @@ export default function SkillsTools() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
           </div>
         </div>
+
         <div className="container" class="containerIcons">
           <div className="card" class="icon" alt='JavaScript' style={icon}>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />

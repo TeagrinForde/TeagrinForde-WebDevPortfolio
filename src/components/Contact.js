@@ -10,6 +10,7 @@ export default function Contact() {
   });
   function onSubmit(event) {
     event.preventDefault();
+    window.location.href = `mailto:${submitState.email}?subject=portfolioMessage&body=${submitState.name + ', ' + submitState.message}`
   }
 
   return (
@@ -31,8 +32,9 @@ export default function Contact() {
                     class="form-control"
                     id="name"
                     placeholder="Full Name"
-                    value="John Doe"
+                    value={submitState.name}
                     required
+                    onChange={(event) => setSubmitState({...submitState, name: event.target.value})}
                   />
                   <div class="valid-feedback">Looks good!</div>
                 </div>
@@ -43,8 +45,9 @@ export default function Contact() {
                     class="form-control"
                     id="email"
                     placeholder="Email Address"
-                    value="JohnDoe@aol.com"
+                    value={submitState.email}
                     required
+                    onChange={(event) => setSubmitState({...submitState, email: event.target.value})}
                   />
                   <div class="valid-feedback">Looks good!</div>
                 </div>
@@ -55,9 +58,10 @@ export default function Contact() {
                       type="text"
                       class="form-control"
                       id="message"
-                      placeholder="Write your message here"
+                      placeholder={submitState.message}
                       aria-describedby="inputGroupPrepend"
                       required
+                      onChange={(event) => setSubmitState({...submitState, message: event.target.value})}
                     ></textarea>
                     <div class="invalid-feedback">Please write a message.</div>
                   </div>
@@ -67,6 +71,7 @@ export default function Contact() {
               <button class="btn btn-primary submit" type="submit">
                 Send Message to Teagrin Forde
               </button>
+
             </form>
           </div>
 
