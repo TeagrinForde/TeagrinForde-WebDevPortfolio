@@ -20,7 +20,7 @@
 
   ## Usage
 
-  Once dependencies and database is installed, run ```npm run start``` in the terminal and follow route or use the url: https://teagrinforde.github.io/TeagrinForde-WebDevPortfolio/
+  Once dependencies and database is installed, run ```npm start``` in the terminal and follow route or use the url: https://teagrinforde.github.io/TeagrinForde-WebDevPortfolio/
  
   ## Contribution Guidelines
 
@@ -34,3 +34,12 @@
   If you would like to see more of my work, checkout my GitHub repositories under the user name ```TeagrinForde```.
   <br>
   If you have any additional questions, please contact me directly at:  TeagrinB@gmail.com
+  
+![image](https://user-images.githubusercontent.com/101753839/186305561-072f5264-e6bf-4f48-aac0-8373c7f76cf7.png)
+
+![image](https://user-images.githubusercontent.com/101753839/186305782-b0e1d721-762d-4e46-85f3-916db4837391.png)
+
+![image](https://user-images.githubusercontent.com/101753839/186306062-0e6a8b67-b201-4504-a164-9e112781e439.png)
+
+
+
