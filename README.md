@@ -16,11 +16,11 @@
 
   ## Installation
 
-  To install all dependencies, open your VS terminal at the root folder and run ```npm i ``` followed by ```npm run build```. 
+  To install all dependencies, open your VS terminal at the root folder and run ```npm i ```. 
 
   ## Usage
 
-  Once dependencies and database is installed, run ```npm run start``` in the terminal and follow route or use the url: 
+  Once dependencies and database is installed, run ```npm run start``` in the terminal and follow route or use the url: https://teagrinforde.github.io/TeagrinForde-WebDevPortfolio/
  
   ## Contribution Guidelines
 
