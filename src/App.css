@@ -30,7 +30,8 @@ button:hover {
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
-    color: white;
+    color: navy;
+    font-weight: 500;
 }
 
 #myStory {
