@@ -79,18 +79,18 @@ export default function Projects() {
   );
 
   return (
-    <div className="container col-10 p-5" id="projects">
+    <div className="container p-2" id="projects">
 
         <div class='row center'>
         <h1 class="center p-3">Projects</h1>
         </div>
 
-          <div class="project row center p-5">
+          <div class="project row center m-5 p-2">
 
             <div className="col-lg-5 col-sm-12 col-md-12 container"> 
               <div>
                 <h3 class="title center">Let's Tech About It</h3>
-                <h6 class="description p-5">
+                <h6 class="description p-3">
                   A full-stack, CMS-style blog site (similar to Wordpress) where developers
                   can publish their blog posts and comment on other developers'
                   posts as well. Implements an MVC file structure.
@@ -131,7 +131,7 @@ export default function Projects() {
 
           </div>
 
-          <div class="project row center p-5">
+          <div class="project row center m-5 p-2">
 
             <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
               <img src={gallivanter} alt="Visual of deployed site" class='computer'/>
@@ -140,8 +140,8 @@ export default function Projects() {
             <div className="col-lg-5 col-sm-12 col-md-12 container"> 
               <div>
                 <h3 class="title center">Gallivanter</h3>
-                <h6 class="description p-5">
-                Gallivanter is an application that provides necessary travel information a user may need before planning a trip. This project was created usign an Agile framework. My responsibilities included login authorization and authentication and overall responsive UI/UX design.
+                <h6 class="description p-3">
+                Gallivanter is an application that provides necessary travel information a user may need before planning a trip. This project was created using an Agile framework. My contributions included login authorization and authentication and overall responsive UI/UX design.
                 </h6>
               </div>
 
@@ -176,12 +176,12 @@ export default function Projects() {
 
           </div>
 
-          <div class="project row center p-5">
+          <div class="project row center m-5 p-2">
 
             <div className="col-lg-5 col-sm-12 col-md-12 container"> 
               <div>
                 <h3 class="title center">Just Another Text-Editor</h3>
-                <h6 class="description p-5">
+                <h6 class="description p-3">
                 JATE is an on/off-line PWA, text editor that runs in the browser as a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser, with an MVC file structure.
                 </h6>
               </div>
@@ -221,7 +221,7 @@ export default function Projects() {
 
           </div>
 
-          <div class="project row center p-5">
+          <div class="project row center m-5 p-2">
 
             <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
               {comingSoon}
@@ -230,7 +230,7 @@ export default function Projects() {
             <div className="col-lg-5 col-sm-12 col-md-12 container"> 
               <div>
                 <h3 class="title center">Interactive MERN Stack SPA</h3>
-                <h6 class="description p-5 center">
+                <h6 class="description p-3 center">
                 COMING SOON!
                 </h6>
               </div>
@@ -273,7 +273,7 @@ export default function Projects() {
             Georgia Institute of Technology Full-Stack Web Development Bootcamp
           </strong>
         </h6>
-        <h6 class="center">Applying and interviewing for web development positions</h6>
+        <h6 class="center">Applying and interviewing for development positions</h6>
         <h6 class="center">MERN Book Search Engine</h6>
         <h6 class="center">React-Redux Store</h6>
         <h6 class="center">CK-12 Math Assessment Writer</h6>

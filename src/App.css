@@ -8,9 +8,11 @@ html {
 
 ul {
     list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-li {
+.contactIcons {
     padding: 3rem
 }
 
@@ -105,7 +107,7 @@ button:hover {
 }
 
 .computer {
-    height: 300px;
+    height: 200px;
     border-radius: 30%;
 }
 
@@ -127,8 +129,8 @@ button:hover {
 
 .project {
     background-color: pink;
-    opacity: 0.8;
-    border-radius: 50%;
+    opacity: 0.9;
+    border-radius: 30%;
     z-index: -1;
 }
 

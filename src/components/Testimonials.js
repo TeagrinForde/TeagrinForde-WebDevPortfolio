@@ -6,10 +6,10 @@ import paulo from '../img/paulo.PNG';
 export default function Testimonials() {
   const quote = { width: "4rem"};
   const openQ = (
-    <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2FQ%2FB%2FT%2FU%2FY%2Ff%2Fpurple-quotation-mark-hi.png&f=1&nofb=1' style={quote}/>
+    <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2FQ%2FB%2FT%2FU%2FY%2Ff%2Fpurple-quotation-mark-hi.png&f=1&nofb=1' alt='open quote' style={quote}/>
   );
   const closeQ = (
-    <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2Fx%2FN%2Fz%2F7%2Fe%2Fc%2Fpurple-quotation-mark-right-hi.png&f=1&nofb=1' style={quote}/>
+    <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2Fx%2FN%2Fz%2F7%2Fe%2Fc%2Fpurple-quotation-mark-right-hi.png&f=1&nofb=1' alt='close quote' style={quote}/>
   );
   return (
     <div className="container col-10 p-5" id="testimonials">

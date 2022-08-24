@@ -76,7 +76,7 @@ export default function Contact() {
           </div>
 
           <ul className="container col-lg-2 col-sm-2 col-md-2">
-            <li className="container">
+            <li className="container contactIcons">
               <a
                 href="https://github.com/TeagrinForde"
                 alt="Link to Teagrin's GitHub Page"
@@ -87,7 +87,7 @@ export default function Contact() {
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fgithub-8-xxl.png&f=1&nofb=1" style={icon}/>
               </a>
             </li>
-            <li className="container">
+            <li className="container contactIcons">
               <a
                 href="https://www.linkedin.com/in/teagrin-forde-pmp-519422197/"
                 alt="Link to Teagrin's LinkedIn Page"                
@@ -98,7 +98,7 @@ export default function Contact() {
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpnggrid.com%2Fwp-content%2Fuploads%2F2021%2F05%2Flinkedin-logo-white-1024x1024.png&f=1&nofb=1" style={icon} />
               </a>
             </li>
-            <li className="container">
+            <li className="container contactIcons">
               <a
                 href="https://stackoverflow.com/users/19309045/teagrin-forde/"
                 alt="Link to Teagrin's stackoverflow Page"                

@@ -21,28 +21,34 @@ export default function About() {
               experience in mathematics education.
             </h4>
             <div>
-              I'm a life-long learner the enjoys creating cutting-edge websites
+              I'm a life-long learner that enjoys creating cutting-edge websites
               and applications with challenging demands and visions. Project
-              manager, team leader, and analytical problem-solver with top-notch
-              organizational, prioritization, and scheduling soft skills.
+              manager, team leader, or individual contributor that is an analytical problem-solver with top-notch
+              organizational, prioritization, and scheduling skills.
             </div>
             <br></br>
             <div>
-              I have a certificate of completion from the{" "}
-              <strong class="bold">
+              <h5>Certifications:</h5>
+              <ul>
+                <li><strong class="bold">
                 Georgia Institute of Technology Full-Stack Web Development
                 Bootcamp
-              </strong>
-              , my PMP certification from Google's
-              <strong class="bold"> Coursera</strong>, two Master of Education
-              degrees from{" "}
-              <strong class="bold">American College of Education</strong>, and a
-              Bachelor of Arts degree from the{" "}
-              <strong class="bold">University of South Florida</strong>.
-            </div>
+              </strong></li>
+              <li>PMP Certification from Google's
+              <strong class="bold"> Coursera</strong></li>
+              </ul>
+              <br></br>
+              <h5>Education:</h5>
+              <ul>
+                <li>Master of Education in Curriculum Instruction from {" "}<strong class="bold">American College of Education</strong></li>
+                <li>Master of Education in Educational Leadership from {" "}<strong class="bold">American College of Education</strong></li>
+                <li>Bachelor of Arts degree from {" "}<strong class="bold">University of South Florida</strong></li>
+              </ul>
+              </div>
+
             <br></br>
             <div>
-              I'm happiest when I'm creating, learning, exploring and improving
+              I thrive when I'm creating, learning, exploring and improving
               my environment through collaboration, organiation, and
               problem-solving. I am currently seeking a full-time position, so
               feel free to reach out and{" "}
