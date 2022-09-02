@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TeagrinForde-WebDevPortfolio/static/css/main.ee6e55b6.css",
-    "main.js": "/TeagrinForde-WebDevPortfolio/static/js/main.5b121818.js",
+    "main.css": "/TeagrinForde-WebDevPortfolio/static/css/main.834631fd.css",
+    "main.js": "/TeagrinForde-WebDevPortfolio/static/js/main.32dab823.js",
     "static/media/projects.PNG": "/TeagrinForde-WebDevPortfolio/static/media/projects.02566df95d3bcfe10e3d.PNG",
     "static/media/myStory.PNG": "/TeagrinForde-WebDevPortfolio/static/media/myStory.6b422934a219f77ba19a.PNG",
     "static/media/gallivanter.PNG": "/TeagrinForde-WebDevPortfolio/static/media/gallivanter.63e34cf3758f17c63844.PNG",
@@ -10,6 +10,7 @@
     "static/media/testimonials.PNG": "/TeagrinForde-WebDevPortfolio/static/media/testimonials.9669e7f608b88d536f35.PNG",
     "static/media/jules.PNG": "/TeagrinForde-WebDevPortfolio/static/media/jules.a66e15d01d14eedf7194.PNG",
     "static/media/jate.png": "/TeagrinForde-WebDevPortfolio/static/media/jate.b9a97914cf63bb0e1918.png",
+    "static/media/suffer.PNG": "/TeagrinForde-WebDevPortfolio/static/media/suffer.b2ef40b3ab54c5af119b.PNG",
     "static/media/contact.PNG": "/TeagrinForde-WebDevPortfolio/static/media/contact.ed9bdf722a76eb978510.PNG",
     "static/media/skillsTools.PNG": "/TeagrinForde-WebDevPortfolio/static/media/skillsTools.01423fb5ec8090fde226.PNG",
     "static/media/paulo.PNG": "/TeagrinForde-WebDevPortfolio/static/media/paulo.bf134a5c2db11c03b88e.PNG",
@@ -17,11 +18,11 @@
     "static/media/jung.PNG": "/TeagrinForde-WebDevPortfolio/static/media/jung.62b8e477ceec31581cac.PNG",
     "static/media/hunter.PNG": "/TeagrinForde-WebDevPortfolio/static/media/hunter.c314d71cd5ee6ed8c921.PNG",
     "index.html": "/TeagrinForde-WebDevPortfolio/index.html",
-    "main.ee6e55b6.css.map": "/TeagrinForde-WebDevPortfolio/static/css/main.ee6e55b6.css.map",
-    "main.5b121818.js.map": "/TeagrinForde-WebDevPortfolio/static/js/main.5b121818.js.map"
+    "main.834631fd.css.map": "/TeagrinForde-WebDevPortfolio/static/css/main.834631fd.css.map",
+    "main.32dab823.js.map": "/TeagrinForde-WebDevPortfolio/static/js/main.32dab823.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee6e55b6.css",
-    "static/js/main.5b121818.js"
+    "static/css/main.834631fd.css",
+    "static/js/main.32dab823.js"
   ]
 }
