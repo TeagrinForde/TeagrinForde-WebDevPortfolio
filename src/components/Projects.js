@@ -2,6 +2,7 @@ import React from "react";
 import letsTech from '../img/letsTech.png';
 import jate from '../img/jate.png';
 import gallivanter from '../img/gallivanter.PNG';
+import suffer from '../img/suffer.PNG';
 
 export default function Projects() {
   const icon = { width: "2rem"};
@@ -84,6 +85,52 @@ export default function Projects() {
         <div class='row center'>
         <h1 class="center p-3">Projects</h1>
         </div>
+
+        <div class="project row center m-5 p-2">
+
+            <div className='col-lg-5 col-sm-12 col-md-12' class='col-6 center p-2'>
+              <img src={suffer} alt="Visual of deployed site" class='computer'/>
+            </div>
+
+            <div className="col-lg-5 col-sm-12 col-md-12 container"> 
+              <div>
+                <h3 class="title center">Suffer</h3>
+                <h6 class="description p-3">
+                Suffer is a compilation of classic videos with a web developer's twist. The score page has a secret "candy" that only web developers can discover in order to access another secret game. This project was created using an Agile framework.
+                </h6>
+              </div>
+
+              <div class='p-1 container center' style={icon} id="projectTags">
+                {js}  
+                {css}  
+                {react}
+                {graphQL}
+                {mongo}
+                {heroku}
+                {sequelize}
+                {node}
+                {express}
+              </div>
+
+              <div class='p-3 container center' style={icon} id="projectLinks">
+                <a
+                  href="https://github.com/TeagrinForde/Suffer"
+                  alt="Project on GitHub"
+                  target="blank"
+                >
+                  {GitHub}
+                </a>
+                <a
+                  href="https://suffer-game-gtbootcamp.herokuapp.com/ "
+                  target="blank"
+                  alt="Visit Site"
+                >
+                  {go}
+                </a>
+              </div>
+            </div>
+
+          </div>
 
           <div class="project row center m-5 p-2">
 
