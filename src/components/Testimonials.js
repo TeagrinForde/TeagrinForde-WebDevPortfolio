@@ -5,7 +5,7 @@ import paulo from "../img/paulo.PNG";
 import jung from '../img/jung.PNG'
 
 export default function Testimonials() {
-  const quote = { width: "4rem" };
+  const quote = { width: "3rem" };
   const openQ = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2FQ%2FB%2FT%2FU%2FY%2Ff%2Fpurple-quotation-mark-hi.png&f=1&nofb=1"
@@ -21,13 +21,13 @@ export default function Testimonials() {
     />
   );
   return (
-    <div className="container col-10 p-5" id="testimonials">
+    <div className="container col-10 m-0 p-0" id="testimonials">
       <div class="row center">
-        <h1 class="center title p-3">Testimonials</h1>
+        <h1 class="center title top">Testimonials</h1>
       </div>
 
-      <div class="testimonial row center p-5">
-        <div className="col-lg-5 col-sm-12 col-md-12 container">
+      <div class="testimonial row">
+        <div className="col-lg-6 col-sm-12 col-md-12 container p-0">
           <div>{openQ}</div>
           <div class="message">
             Compassionate, innovative, a leader. Teagrin holds all the values
@@ -58,8 +58,8 @@ export default function Testimonials() {
           <div class="center">
             <img src={jung} alt="Junghoon Yoon" class="testPeep" />
           </div>
-          <h2 class="center title">Junghoon Yoon</h2>
-          <h5 class="center title">
+          <h2 class="center name">Junghoon Yoon</h2>
+          <h5 class="text-center">
             Lead Instructor at Georgia Technical Institute of Technology and 2U
           </h5>
         </div>
@@ -70,8 +70,8 @@ export default function Testimonials() {
           <div class="center">
             <img src={hunter} alt="Hunter Padgett" class="testPeep" />
           </div>
-          <h2 class="center title">Hunter Padgett</h2>
-          <h5 class="center title">Full-Stack Web Developer</h5>
+          <h2 class="center name">Hunter Padgett</h2>
+          <h5 class="text-center">Full-Stack Web Developer</h5>
         </div>
 
         <div className="col-lg-5 col-sm-12 col-md-12 container">
@@ -102,8 +102,8 @@ export default function Testimonials() {
           <div class="center">
             <img src={jules} alt="Jules Franklin" class="testPeep" />
           </div>
-          <h2 class="center title">Jules Franklin</h2>
-          <h5 class="center title">Full-Stack Web Developer</h5>
+          <h2 class="center name">Jules Franklin</h2>
+          <h5 class="text-center">Full-Stack Web Developer</h5>
         </div>
       </div>
 
@@ -112,8 +112,8 @@ export default function Testimonials() {
           <div class="center">
             <img src={paulo} alt="Paulo Condori" class="testPeep" />
           </div>
-          <h2 class="center title">Paulo Condori</h2>
-          <h5 class="center title">Full-Stack Web Developer</h5>
+          <h2 class="center name">Paulo Condori</h2>
+          <h5 class="text-center">Full-Stack Web Developer</h5>
         </div>
 
         <div className="col-lg-5 col-sm-12 col-md-12 container">

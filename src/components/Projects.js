@@ -1,7 +1,7 @@
 import React from "react";
 import letsTech from "../img/letsTech.png";
 import jate from "../img/jate.png";
-import gallivanter from "../img/gallivanter.PNG";
+import gallivanter from "../img/gallivanter.png";
 import suffer from "../img/suffer.png";
 
 export default function Projects() {
@@ -368,7 +368,7 @@ export default function Projects() {
       </h6>
       <h6 class="center title">Everest Material Handling ~ Contract</h6>
       <h6 class="center title">Be Your Best Inc. ~ Contract</h6>
-      <h6 class="center">
+      <h6 class="center m-0">
         <a href="#myStory" alt="My Story" class="link">
           Follow My Journey Here
         </a>

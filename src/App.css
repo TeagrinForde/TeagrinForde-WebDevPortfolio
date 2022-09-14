@@ -35,6 +35,12 @@ button:hover {
     opacity: 1;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 /**********************************************************************
 about
 ************************************************************************/
@@ -71,6 +77,7 @@ projects
 
 .computer {
     width: 400px;
+    border-radius: 20%;
 }
 
 @media screen and (max-width: 960px) {
@@ -113,13 +120,25 @@ testimonials
 ************************************************************************/
 
 #testimonials {
-    background-image: url('./img/testimonials.PNG');
+    background-image: url('./img/testimonials.png');
     background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+}
+
+.top {
+    padding-top: 140px;
+}
+
+.name {
+    color: purple;
+}
+
+.testPeep {
+    border-radius: 40%;
+    filter: grayscale(100%);
+    max-width: 30%;
 }
 
 /**********************************************************************
@@ -146,6 +165,10 @@ skills and tools
     padding-bottom: 20px;
 }
 
+.stContainer {
+    padding-left: 20px;
+}
+
 /**********************************************************************
 contact
 ************************************************************************/
@@ -163,12 +186,6 @@ contact
 #formContain {
     text-align: center;
     padding-top: 25px;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
 }
 
 .containerIcons {
@@ -199,18 +216,8 @@ contact
     opacity: 1;
 }
 
-.stContainer {
-    padding-left: 20px;
-}
-
 .round {
     border-radius: 30%;
-}
-
-.testPeep {
-    border-radius: 40%;
-    filter: grayscale(100%);
-    max-width: 30%;
 }
 
 .contactIcons {
