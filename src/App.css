@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
     -webkit-text-size-adjust: 100%;
 }
@@ -18,7 +25,7 @@ ul {
 
 button,
 #navbar {
-    background-color: purple !important;
+    background-color: #004080 !important;
     opacity: 0.5;
 }
 
@@ -28,20 +35,12 @@ button:hover {
 }
 
 #about {
-    background-image: url('./img/about.PNG');
+    background-image: url('./img/about.png');
     background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
-    color: navy;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: #004080;
     font-weight: 500;
-}
-
-#myStory {
-    background-image: url('./img/myStory.PNG');
-    background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
-    color: white;
 }
 
 #projects {
@@ -49,6 +48,24 @@ button:hover {
     background-size: cover;
     min-width: 100%;
     max-height: 100%;
+    color: white;
+}
+
+#testimonials {
+    background-image: url('./img/testimonials.PNG');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#myStory {
+    background-image: url('./img/myStory.PNG');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
     color: white;
 }
 
@@ -72,15 +89,7 @@ button:hover {
     padding-bottom: 20px;
 }
 
-#testimonials {
-    background-image: url('./img/testimonials.PNG');
-    background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 
 #formContain {
     text-align: center;
