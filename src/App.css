@@ -19,14 +19,15 @@ ul {
     margin: 0 !important;
 }
 
-.contactIcons {
-    padding: 3rem
+button {
+        background-color: #004080 !important;
+        opacity: 0.5;
 }
 
-button,
 #navbar {
-    background-color: #004080 !important;
-    opacity: 0.5;
+    background-color: purple !important;
+    opacity: 0.8;
+    min-width: 100vw; 
 }
 
 #navbar:hover,
@@ -34,22 +35,82 @@ button:hover {
     opacity: 1;
 }
 
+/**********************************************************************
+about
+************************************************************************/
 #about {
     background-image: url('./img/about.png');
     background-size: cover;
-    min-width: 100vw;
     min-height: 100vh;
-    color: #004080;
+    min-width: 100vw;    
+    color: lavender;
     font-weight: 500;
 }
 
+#profilePic {
+    max-height: 200px;
+    padding-top: 20px;
+    border-radius: 230px;
+}
+
+.aboutMe,
+.bold {
+    color: #e598be;
+}
+
+/**********************************************************************
+projects
+************************************************************************/
 #projects {
-    background-image: url('./img/projects.PNG');
+    background-image: url('./img/projects.png');
     background-size: cover;
-    min-width: 100%;
-    max-height: 100%;
+    min-height: 100vh;
+    min-width: 100vw; 
+    color: purple;
+}
+
+.computer {
+    width: 400px;
+}
+
+@media screen and (max-width: 960px) {
+    .computer {
+        width: 300px;
+    }    
+}
+
+@media screen and (max-width: 520px) {
+    .computer {
+        width: 200px;
+    }    
+}
+
+.currently {
+    color: #e598be;
+    font-style: italic;
+}
+.title {
     color: white;
 }
+
+.description {
+    color: #e598be
+}
+
+.project {
+    background-color: purple;
+    border-radius: 40%;
+}
+
+.link {
+    color: #e598be;
+    text-decoration-color: purple;
+    font-weight: 700;
+    font-style: italic;
+}
+/**********************************************************************
+testimonials
+************************************************************************/
 
 #testimonials {
     background-image: url('./img/testimonials.PNG');
@@ -61,6 +122,9 @@ button:hover {
     padding-bottom: 20px;
 }
 
+/**********************************************************************
+mystory
+************************************************************************/
 #myStory {
     background-image: url('./img/myStory.PNG');
     background-size: cover;
@@ -69,6 +133,9 @@ button:hover {
     color: white;
 }
 
+/**********************************************************************
+skills and tools
+************************************************************************/
 #skillsTools {
     background-image: url('./img/skillsTools.PNG');
     background-size: cover;
@@ -78,6 +145,10 @@ button:hover {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/**********************************************************************
+contact
+************************************************************************/
 
 #contact {
     background-image: url('./img/contact.PNG');
@@ -89,65 +160,15 @@ button:hover {
     padding-bottom: 20px;
 }
 
-
-
 #formContain {
     text-align: center;
     padding-top: 25px;
-}
-
-
-#projectLinks,
-#projectTags {
-    display: flex;
-}
-
-
-#profilePic {
-    max-height: 300px;
-    padding-top: 20px;
-    border-radius: 230px;
 }
 
 .center {
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
-
-.computer {
-    height: 200px;
-    border-radius: 30%;
-}
-
-.title,
-.currently,
-.aboutMe,
-.bold {
-    color: purple;
-}
-
-.currently {
-    font-style: italic;
-}
-
-.description,
-.question {
-    color: navy
-}
-
-.project {
-    background-color: pink;
-    opacity: 0.9;
-    border-radius: 10%;
-    z-index: -1;
-}
-
-.link {
-    color: white;
-    text-decoration-color: purple;
-    font-weight: 700;
-    font-style: italic;
 }
 
 .containerIcons {
@@ -190,4 +211,8 @@ button:hover {
     border-radius: 40%;
     filter: grayscale(100%);
     max-width: 30%;
+}
+
+.contactIcons {
+    padding: 3rem
 }

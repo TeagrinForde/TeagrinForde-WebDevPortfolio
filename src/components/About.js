@@ -6,16 +6,16 @@ export default function About() {
     <div className="container col-10 p-5" id="about">
       <div>
         <div class="row center">
-          <h1 class="question">Who is Teagrin Forde?</h1>
+          <h1 class="aboutMe">Who is Teagrin Forde?</h1>
         </div>
 
-        <div class="row container center">
+        <div class="row container">
 
-          <div className="col-lg-3 col-sm-12 col-md-12" class='center col-3'>
+          <div class="center col-lg-3 col-sm-12 col-md-3">
             <img src={Pic} id="profilePic" alt="Teagrin Forde"/>
           </div>
 
-          <div class="col-lg-6 col-sm-12 col-md-12 container">
+          <div class="col-lg-7 col-sm-12 col-md-9 container m-0 p-0">
             <h4 class="aboutMe">
               Creative, logic-driven Full-Stack developer with strong background and
               experience in mathematics education.
@@ -36,6 +36,7 @@ export default function About() {
               </strong></li>
               <li>PMP Certification from Google's
               <strong class="bold"> Coursera</strong></li>
+              <li>Artificial Intellligence Explorations and their Practical use in School Environments from General Motor's <strong class="bold"> International Society for Technology in Education</strong> (ISTE).</li>
               </ul>
               <br></br>
               <h5>Education:</h5>
@@ -55,7 +56,7 @@ export default function About() {
               <a href="#contact" class="link" alt='Contact Me'>say hello</a>!
             </div>
             <br></br>
-            <div class="bold">Last updated August 2022</div>
+            <div class="bold">Last updated September 2022</div>
           </div>          
         </div>
       </div>
