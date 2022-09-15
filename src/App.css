@@ -92,6 +92,11 @@ projects
     }    
 }
 
+.comingSoon {
+    width: 180px;
+    border-radius: 20%;
+}
+
 .currently {
     color: #e598be;
     font-style: italic;
@@ -114,6 +119,10 @@ projects
     text-decoration-color: purple;
     font-weight: 700;
     font-style: italic;
+}
+
+.verticalAlign {
+
 }
 /**********************************************************************
 testimonials

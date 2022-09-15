@@ -3,6 +3,7 @@ import letsTech from "../img/letsTech.png";
 import jate from "../img/jate.png";
 import gallivanter from "../img/gallivanter.png";
 import suffer from "../img/suffer.png";
+import comingSoon from "../img/comingSoon.PNG";
 
 export default function Projects() {
   const icon = { height: "2.5rem" };
@@ -117,13 +118,6 @@ export default function Projects() {
       style={icon}
     />
   );
-  const comingSoon = (
-    <img
-      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F404%2F406%2Foriginal%2Fpurple-coming-soon-neon-icon-vector.jpg&f=1&nofb=1"
-      alt="Coming Soon!"
-      class="computer"
-    />
-  );
 
   return (
     <div className="container" id="projects">
@@ -229,7 +223,7 @@ export default function Projects() {
       </div>
 
       <div class="project row center m-4 p-2">
-        <div className="col-lg-5 col-sm-12 col-md-12" class="col-6 center p-2">
+        <div className="center col-lg-4 col-sm-12 col-md-4">
           <img
             src={gallivanter}
             alt="Visual of deployed site"
@@ -237,10 +231,10 @@ export default function Projects() {
           />
         </div>
 
-        <div className="col-lg-5 col-sm-12 col-md-12 container">
+        <div className="col-lg-6 col-sm-12 col-md-5 container p-0 m-0">
           <div>
             <h3 class="title center">Gallivanter</h3>
-            <h6 class="description p-3">
+            <h6 class="description p-1">
               Gallivanter is an application that provides necessary travel
               information a user may need before planning a trip. This project
               was created using an Agile framework. My contributions included
@@ -281,10 +275,10 @@ export default function Projects() {
       </div>
 
       <div class="project row center m-4 p-2">
-        <div className="col-lg-5 col-sm-12 col-md-12 container">
+        <div className="col-lg-6 col-sm-12 col-md-5 container p-0 m-0">
           <div>
             <h3 class="title center">Just Another Text-Editor</h3>
-            <h6 class="description p-3">
+            <h6 class="description p-1">
               JATE is an on/off-line PWA, text editor that runs in the browser
               as a single-page application that meets the PWA criteria.
               Additionally, it features a number of data persistence techniques
@@ -322,20 +316,20 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="col-lg-5 col-sm-12 col-md-12" class="col-6 center p-2">
+        <div className="center col-lg-4 col-sm-12 col-md-4">
           <img src={jate} alt="Visual of deployed site" class="computer" />
         </div>
       </div>
 
       <div class="project row center m-4 p-2">
-        <div className="col-lg-5 col-sm-12 col-md-12" class="col-6 center p-2">
-          {comingSoon}
+        <div className="center col-lg-4 col-sm-12 col-md-4">
+          <img src={comingSoon} alt='Coming Soon' class="comingSoon"/>
         </div>
 
-        <div className="col-lg-5 col-sm-12 col-md-12 container">
+        <div className="col-lg-6 col-sm-12 col-md-5 container p-0 m-0">
           <div>
-            <h3 class="title center">Interactive MERN Stack SPA</h3>
-            <h6 class="description p-3 center">COMING SOON!</h6>
+            <h3 class="title center">Everest Material Handling</h3>
+            <h6 class="description p-1 center">E-commerce website coming soon!</h6>
           </div>
 
           <div class="p-1 container center" style={icon} id="projectTags">
@@ -355,7 +349,7 @@ export default function Projects() {
             <a href="#" alt="Project on GitHub" target="blank">
               {GitHub}
             </a>
-            <a href="# " target="blank" alt="Visit Site">
+            <a href="#" target="blank" alt="Visit Site">
               {go}
             </a>
           </div>
