@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import letsTech from "../img/letsTech.png";
 import jate from "../img/jate.png";
 import gallivanter from "../img/gallivanter.png";
@@ -120,12 +121,12 @@ export default function Projects() {
   );
 
   return (
-    <div className="container" id="projects">
+    <Container id="projects">
       <div class="row center">
         <h1 class="center p-1">Projects</h1>
       </div>
 
-      <div class="project row center m-4 p-2">
+      <div class="project center row m-1 p-2">
         <div className="center col-lg-4 col-sm-12 col-md-4">
           <img src={suffer} alt="Visual of deployed site" class="computer" />
         </div>
@@ -177,7 +178,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="project row center m-4 p-2">
+      <div class="project center row m-1 p-2">
         <div className="col-lg-6 col-sm-12 col-md-5 container p-0 m-0">
           <div>
             <h3 class="title center">Let's Tech About It</h3>
@@ -222,7 +223,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="project row center m-4 p-2">
+      <div class="project center row m-1 p-2">
         <div className="center col-lg-4 col-sm-12 col-md-4">
           <img
             src={gallivanter}
@@ -274,7 +275,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="project row center m-4 p-2">
+      <div class="project center row m-1 p-2">
         <div className="col-lg-6 col-sm-12 col-md-5 container p-0 m-0">
           <div>
             <h3 class="title center">Just Another Text-Editor</h3>
@@ -321,7 +322,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="project row center m-4 p-2">
+      <div class="project center row m-1 p-2">
         <div className="center col-lg-4 col-sm-12 col-md-4">
           <img src={comingSoon} alt='Coming Soon' class="comingSoon"/>
         </div>
@@ -367,6 +368,6 @@ export default function Projects() {
           Follow My Journey Here
         </a>
       </h6>
-    </div>
+    </Container>
   );
 }

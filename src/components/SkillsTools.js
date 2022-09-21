@@ -1,9 +1,10 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 export default function SkillsTools() {
   const icon = { width: "4rem" };
   return (
-    <section className="container col-10 p-4" class="row" id="skillsTools">
+    <Container id="skillsTools">
       <div className="container p-5" class="stContainer">
         <h1 class='center'>Skills&Tools</h1>
 
@@ -91,6 +92,6 @@ export default function SkillsTools() {
         <h6 class='center'>AWS</h6>
         <h6 class='center'>Python</h6>
       </div>
-    </section>
+    </Container>
   );
 }

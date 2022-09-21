@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container } from "react-bootstrap";
 
 export default function Contact() {
   const icon = { width: "3rem" };
@@ -14,7 +15,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="container col-10" class="row" id="contact">
+    <Container id="contact">
       <div className="container">
         <h1 class="center">Get In Touch</h1>
         <div className="container row col-12" class='center'>
@@ -116,6 +117,6 @@ export default function Contact() {
           <p>© 2022 | Created and designed by Teagrin Forde | ❤️ 🖥️</p>
         </div>
       </div>
-    </section>
+    </Container>
   );
 }

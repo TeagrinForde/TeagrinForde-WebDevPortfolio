@@ -1,9 +1,10 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import Pic from "../img/ProfilePic.jpg";
 
 export default function About() {
   return (
-    <div className="container col-10 p-5" id="about">
+    <Container id="about">
       <div>
         <div class="row center">
           <h1 class="aboutMe">Who is Teagrin Forde?</h1>
@@ -60,6 +61,6 @@ export default function About() {
           </div>          
         </div>
       </div>
-    </div>
+    </Container>
   );
 }

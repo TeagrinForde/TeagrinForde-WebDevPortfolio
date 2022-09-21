@@ -144,7 +144,11 @@ testimonials
 .testPeep {
     border-radius: 40%;
     filter: grayscale(100%);
-    max-width: 30%;
+    max-width: 50%;
+}
+
+.quote {
+    max-width: 5rem;
 }
 
 /**********************************************************************
