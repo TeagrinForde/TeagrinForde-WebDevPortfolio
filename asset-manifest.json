@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TeagrinForde-WebDevPortfolio/static/css/main.853dfa98.css",
-    "main.js": "/TeagrinForde-WebDevPortfolio/static/js/main.c1d3592a.js",
+    "main.js": "/TeagrinForde-WebDevPortfolio/static/js/main.59c37f86.js",
     "static/media/myStory.PNG": "/TeagrinForde-WebDevPortfolio/static/media/myStory.6b422934a219f77ba19a.PNG",
     "static/media/comingSoon.PNG": "/TeagrinForde-WebDevPortfolio/static/media/comingSoon.b57105738109f3bfcb72.PNG",
     "static/media/gallivanter.png": "/TeagrinForde-WebDevPortfolio/static/media/gallivanter.a57d5acbb4b34aa782ca.png",
@@ -20,10 +20,10 @@
     "static/media/hunter.PNG": "/TeagrinForde-WebDevPortfolio/static/media/hunter.c314d71cd5ee6ed8c921.PNG",
     "index.html": "/TeagrinForde-WebDevPortfolio/index.html",
     "main.853dfa98.css.map": "/TeagrinForde-WebDevPortfolio/static/css/main.853dfa98.css.map",
-    "main.c1d3592a.js.map": "/TeagrinForde-WebDevPortfolio/static/js/main.c1d3592a.js.map"
+    "main.59c37f86.js.map": "/TeagrinForde-WebDevPortfolio/static/js/main.59c37f86.js.map"
   },
   "entrypoints": [
     "static/css/main.853dfa98.css",
-    "static/js/main.c1d3592a.js"
+    "static/js/main.59c37f86.js"
   ]
 }
