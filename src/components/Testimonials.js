@@ -21,13 +21,13 @@ export default function Testimonials() {
     />
   );
   return (
-    <div className="container col-10 m-0 p-0" id="testimonials">
+    <div className="container m-0 p-0" class='row center' id="testimonials">
       <div class="row center">
         <h1 class="center title top">Testimonials</h1>
       </div>
 
-      <div class="testimonial row">
-        <div className="col-lg-6 col-sm-12 col-md-12 container p-0">
+      <div class="testimonial row p-2">
+        <div className="col-lg-8 col-sm-10 col-md-5 container">
           <div>{openQ}</div>
           <div class="message">
             Compassionate, innovative, a leader. Teagrin holds all the values
@@ -54,19 +54,19 @@ export default function Testimonials() {
           <div className="text-end">{closeQ}</div>
         </div>
 
-        <div className="col-lg-3 col-sm-12 col-md-12 container">
+        <div className="col-lg-3 col-sm-12 col-md-5 container">
           <div class="center">
             <img src={jung} alt="Junghoon Yoon" class="testPeep" />
           </div>
           <h2 class="center name">Junghoon Yoon</h2>
-          <h5 class="text-center">
+          <h5 class="text-center p-2">
             Lead Instructor at Georgia Technical Institute of Technology and 2U
           </h5>
         </div>
       </div>
 
-      <div class="testimonial row center p-5">
-        <div className="col-lg-3 col-sm-12 col-md-12 container">
+      <div class="testimonial row p-2">
+        <div className="col-lg-3 col-sm-12 col-md-5 container">
           <div class="center">
             <img src={hunter} alt="Hunter Padgett" class="testPeep" />
           </div>
@@ -74,7 +74,7 @@ export default function Testimonials() {
           <h5 class="text-center">Full-Stack Web Developer</h5>
         </div>
 
-        <div className="col-lg-5 col-sm-12 col-md-12 container">
+        <div className="col-lg-8 col-sm-10 col-md-5 container">
           <div>{openQ}</div>
           <div class="message">
             Working with Teagrin is always a pleasure. She's always the hardest
@@ -86,8 +86,8 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <div class="testimonial row center p-5">
-        <div className="col-lg-5 col-sm-12 col-md-12 container">
+      <div class="testimonial row p-2">
+        <div className="col-lg-8 col-sm-10 col-md-5 container">
           <div>{openQ}</div>
           <div class="message">
             Teagrin is an enthusiastic, hard-working, driven individual. Her
@@ -98,7 +98,7 @@ export default function Testimonials() {
           <div className="text-end">{closeQ}</div>
         </div>
 
-        <div className="col-lg-3 col-sm-12 col-md-12 container">
+        <div className="col-lg-3 col-sm-12 col-md-5 container">
           <div class="center">
             <img src={jules} alt="Jules Franklin" class="testPeep" />
           </div>
@@ -107,8 +107,8 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <div class="testimonial row center p-5">
-        <div className="col-lg-3 col-sm-12 col-md-12 container">
+      <div class="testimonial row p-2">
+        <div className="col-lg-3 col-sm-12 col-md-5 container">
           <div class="center">
             <img src={paulo} alt="Paulo Condori" class="testPeep" />
           </div>
@@ -116,7 +116,7 @@ export default function Testimonials() {
           <h5 class="text-center">Full-Stack Web Developer</h5>
         </div>
 
-        <div className="col-lg-5 col-sm-12 col-md-12 container">
+        <div className="col-lg-8 col-sm-10 col-md-5 container">
           <div>{openQ}</div>
           <div class="message">
             A leader, fearless, persistent, and intelligent. Those words are
