@@ -162,6 +162,22 @@ mystory
     color: white;
 }
 
+.pic {
+    width: 350px;
+}
+
+@media screen and (max-width: 960px) {
+    .pic {
+        width: 300px;
+    }    
+}
+
+@media screen and (max-width: 520px) {
+    .pic {
+        width: 200px;
+    }    
+}
+
 /**********************************************************************
 skills and tools
 ************************************************************************/

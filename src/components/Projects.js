@@ -7,7 +7,7 @@ import suffer from "../img/suffer.png";
 import comingSoon from "../img/comingSoon.PNG";
 
 export default function Projects() {
-  const icon = { height: "2.5rem" };
+  const icon = { height: "2rem" };
 
   const js = (
     <img
