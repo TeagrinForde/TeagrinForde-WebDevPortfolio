@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/TeagrinForde-WebDevPortfolio/static/css/main.853dfa98.css",
-    "main.js": "/TeagrinForde-WebDevPortfolio/static/js/main.59c37f86.js",
+    "main.css": "/TeagrinForde-WebDevPortfolio/static/css/main.7e236148.css",
+    "main.js": "/TeagrinForde-WebDevPortfolio/static/js/main.108c2936.js",
     "static/media/myStory.PNG": "/TeagrinForde-WebDevPortfolio/static/media/myStory.6b422934a219f77ba19a.PNG",
     "static/media/comingSoon.PNG": "/TeagrinForde-WebDevPortfolio/static/media/comingSoon.b57105738109f3bfcb72.PNG",
+    "static/media/originalPortfolio.png": "/TeagrinForde-WebDevPortfolio/static/media/originalPortfolio.45f82ad6498f0bd9e810.png",
     "static/media/gallivanter.png": "/TeagrinForde-WebDevPortfolio/static/media/gallivanter.a57d5acbb4b34aa782ca.png",
     "static/media/letsTech.png": "/TeagrinForde-WebDevPortfolio/static/media/letsTech.9a5024c4a0d10d48b96c.png",
     "static/media/suffer.png": "/TeagrinForde-WebDevPortfolio/static/media/suffer.cad7dd19343d5b859371.png",
     "static/media/jules.PNG": "/TeagrinForde-WebDevPortfolio/static/media/jules.a66e15d01d14eedf7194.PNG",
     "static/media/jate.png": "/TeagrinForde-WebDevPortfolio/static/media/jate.52b541f3dbe77b218667.png",
     "static/media/contact.PNG": "/TeagrinForde-WebDevPortfolio/static/media/contact.ed9bdf722a76eb978510.PNG",
-    "static/media/about.png": "/TeagrinForde-WebDevPortfolio/static/media/about.cb66097a8470f2f80227.png",
+    "static/media/about.png": "/TeagrinForde-WebDevPortfolio/static/media/about.f4871e4b2e39a52be455.png",
+    "static/media/closeQ.png": "/TeagrinForde-WebDevPortfolio/static/media/closeQ.2205cdc0eb0fd897c0f1.png",
+    "static/media/openQ.png": "/TeagrinForde-WebDevPortfolio/static/media/openQ.5a10cd0af06aa04ce44a.png",
     "static/media/skillsTools.PNG": "/TeagrinForde-WebDevPortfolio/static/media/skillsTools.01423fb5ec8090fde226.PNG",
-    "static/media/projects.png": "/TeagrinForde-WebDevPortfolio/static/media/projects.c1238187e79b078ae36f.png",
+    "static/media/projects.png": "/TeagrinForde-WebDevPortfolio/static/media/projects.bc7b5a3c024a709748f9.png",
+    "static/media/testimonials.png": "/TeagrinForde-WebDevPortfolio/static/media/testimonials.e804664e3038f8b229a7.png",
     "static/media/paulo.PNG": "/TeagrinForde-WebDevPortfolio/static/media/paulo.bf134a5c2db11c03b88e.PNG",
     "static/media/ProfilePic.jpg": "/TeagrinForde-WebDevPortfolio/static/media/ProfilePic.144c1265488be8e2d6a3.jpg",
     "static/media/jung.PNG": "/TeagrinForde-WebDevPortfolio/static/media/jung.62b8e477ceec31581cac.PNG",
-    "static/media/testimonials.png": "/TeagrinForde-WebDevPortfolio/static/media/testimonials.c32f4f50674ff09684fa.png",
     "static/media/hunter.PNG": "/TeagrinForde-WebDevPortfolio/static/media/hunter.c314d71cd5ee6ed8c921.PNG",
     "index.html": "/TeagrinForde-WebDevPortfolio/index.html",
-    "main.853dfa98.css.map": "/TeagrinForde-WebDevPortfolio/static/css/main.853dfa98.css.map",
-    "main.59c37f86.js.map": "/TeagrinForde-WebDevPortfolio/static/js/main.59c37f86.js.map"
+    "main.7e236148.css.map": "/TeagrinForde-WebDevPortfolio/static/css/main.7e236148.css.map",
+    "main.108c2936.js.map": "/TeagrinForde-WebDevPortfolio/static/js/main.108c2936.js.map"
   },
   "entrypoints": [
-    "static/css/main.853dfa98.css",
-    "static/js/main.59c37f86.js"
+    "static/css/main.7e236148.css",
+    "static/js/main.108c2936.js"
   ]
 }
