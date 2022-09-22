@@ -182,7 +182,7 @@ mystory
 skills and tools
 ************************************************************************/
 #skillsTools {
-    background-image: url('./img/skillsTools.PNG');
+    background-image: url('./img/skillsTools.png');
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -191,9 +191,7 @@ skills and tools
     padding-bottom: 20px;
 }
 
-.stContainer {
-    padding-left: 20px;
-}
+
 
 /**********************************************************************
 contact

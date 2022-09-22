@@ -5,8 +5,8 @@ export default function SkillsTools() {
   const icon = { width: "4rem" };
   return (
     <Container id="skillsTools">
-      <div className="container p-5" class="stContainer">
-        <h1 class='center'>Skills&Tools</h1>
+      <div>
+        <h1 class='center pt-5 mt-5'>Skills&Tools</h1>
 
         <div className="container" class="containerIcons">
           <div className="card" class="icon" alt='Bable' style={icon}>
