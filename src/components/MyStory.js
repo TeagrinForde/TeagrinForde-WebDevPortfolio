@@ -24,8 +24,8 @@ export default function MyStory() {
         the personal and professional growth potential in the private sector was
         no longer something I could resist.
       </div>
-      <div class="center p-5">
-        <div class="col-3 d-flex align-items-center">
+      <div class="center row p-5">
+        <div class="col-lg-3 col-md-12 col-sm-12 d-flex align-items-center center">
           <a
             href="https://teagrinforde.github.io/Teagrin-Forde-Portfolio/"
             target="_blank"
@@ -38,8 +38,9 @@ export default function MyStory() {
             />
           </a>
         </div>
-        <div class="col-9 project text-center p-5">
-        In June of 2022, I started the Georgia Institute of Technology Full-Stack Development Bootcamp, where all the skills I have gained throughout my life were tested. The Bootcamp was a 12-week intensive program focused on gaining technical programming skills. In the first month, we covered Front-end languages and applications such as HTML, CSS, JavaScript, Git, GitHub, GitLab, Web APIs, third-party APIs, Web APIs, and Server-Side APIs. The computer and phone display to the left is a link to the site. The second month covered Back-end languages, applications, and concepts like Node.js, OOP, Express.js, SQL, ORM, and MVC. The final month taught us Computer Science specific applications that are useful when seeking a career in full-stack development. A few of these applications included NoSQL, PWA, React, MERN, and State. Towards the end of the Bootcamp, I created my new portfolio (yes… this one) to better example my current abilities. Below are links to a few projects completed throughout the Bootcamp, certifications earned, and my RESUME for you to check out. Let's build something together!
+
+        <div class="col-lg-9 col-md-12 col-sm-12 project text-center p-5">
+        In June of 2022, I started the Georgia Institute of Technology Full-Stack Development Bootcamp, where all the skills I have gained throughout my life were tested. The Bootcamp was a 12-week intensive program focused on gaining technical programming skills. In the first month, we covered Front-end languages and applications such as HTML, CSS, JavaScript, Git, GitHub, GitLab, Web APIs, third-party APIs, Web APIs, and Server-Side APIs. The computer and phone display to the left (above if using mobile or tablet) is a link to the site. The second month covered Back-end languages, applications, and concepts like Node.js, OOP, Express.js, SQL, ORM, and MVC. The final month taught us Computer Science specific applications that are useful when seeking a career in full-stack development. A few of these applications included NoSQL, PWA, React, MERN, and State. Towards the end of the Bootcamp, I created my new portfolio (yes… this one) to better example my current abilities. Below are links to a few projects completed throughout the Bootcamp, certifications earned, and my RESUME for you to check out. Let's build something together!
         </div>
       </div>
 
