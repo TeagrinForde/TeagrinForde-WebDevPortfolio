@@ -111,7 +111,7 @@ projects
 }
 
 .project {
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0.624);
     border-radius: 40%;
 }
 

@@ -127,6 +127,7 @@ export default function Projects() {
       </div>
 
       <div class="project center row m-1 p-2">
+
         <div className="center col-lg-4 col-sm-12 col-md-4">
           <img src={suffer} alt="Visual of deployed site" class="computer" />
         </div>
@@ -176,6 +177,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+        
       </div>
 
       <div class="project center row m-1 p-2">
@@ -364,7 +366,7 @@ export default function Projects() {
       <h6 class="center title">Everest Material Handling ~ Contract</h6>
       <h6 class="center title">Be Your Best Inc. ~ Contract</h6>
       <h6 class="center m-0">
-        <a href="#myStory" alt="My Story" class="link">
+        <a href="#myStory" alt="My Story" class="link p-5">
           Follow My Journey Here
         </a>
       </h6>
