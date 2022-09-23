@@ -98,8 +98,9 @@ projects
 }
 
 .currently {
-    color: #e598be;
+    color: #004080;
     font-style: italic;
+    text-decoration: underline;
 }
 .title {
     color: white;
@@ -155,7 +156,7 @@ testimonials
 mystory
 ************************************************************************/
 #myStory {
-    background-image: url('./img/myStory.PNG');
+    background-image: url('./img/myStory.png');
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -186,19 +187,28 @@ skills and tools
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
-    color: navy;
+    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.icon {
+    background-color: #e598bf70;
+    border-radius: 15%;
+    padding: 0.25rem;
+}
 
+.currentlyExp {
+    font-style: italic;
+    text-decoration: underline;
+}
 
 /**********************************************************************
 contact
 ************************************************************************/
 
 #contact {
-    background-image: url('./img/contact.PNG');
+    background-image: url('./img/contact.png');
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -227,13 +237,9 @@ contact
     height: 140px;
 }
 
-.iconMini,
-.icon {
-    background-color: transparent;
-}
-
 .iconMini {
     opacity: 0.7;
+    background-color: transparent;
 }
 
 .iconMini:hover {
