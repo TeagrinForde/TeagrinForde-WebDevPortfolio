@@ -16,7 +16,7 @@ export default function Contact() {
 
   return (
     <Container id="contact">
-      <div className="container">
+      <div className="container p-5">
         <h1 class="center">Get In Touch</h1>
         <div className="container row col-12" class='center'>
           <div className="container col-lg-7 col-sm-12 col-md-9" id="formContain">
