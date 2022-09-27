@@ -122,7 +122,7 @@ export default function Projects() {
 
   return (
     <Container id="projects">
-      <div class="row center">
+      <div class="row center pt-5">
         <h1 class="center p-1">Projects</h1>
       </div>
 

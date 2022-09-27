@@ -105,8 +105,9 @@ export default function MyStory() {
       </div>
 
       <h2 class="center row pt-4 pb-4">Additional Projects</h2>
+
       <div class="p-0 m-0 d-flex center">
-        <div class="row center">
+        <div class="row center p-5">
           <div class="d-flex center col-lg-1 col-md-2 col-sm-12 p-1">
             <a
               href="https://teagrinforde.github.io/wellness-project/"
@@ -123,6 +124,10 @@ export default function MyStory() {
               site utilizes two server-side APIs connecting to a personal health
               widget on the Health.org website and a slideshow of dog photos to
               help relieve stress, with a responsive and polished UI design.
+              This project was created using an Agile framework, structured with
+              a Kanban board, developed through a User Story, and presented
+              through a PowerPoint presentation. Additional technologies/tools
+              include: Bootstrap, GoogleFonts, jQuery, jQueryUI, and Moment.js.
             </p>
           </div>
 
@@ -138,20 +143,53 @@ export default function MyStory() {
                 class="extra"
               />
             </a>
-            </div>
+          </div>
           <div class="d-flex center col-lg-3 col-md-6 col-sm-12 p-1">
             <p class="text-white p-1">
-              An front-end, interactive dashboard that allows users to look up
+              A front-end, interactive dashboard that allows users to look up
               the weekly weather information in any city around the United
               States to determine the current temperature, wind speed, humidty,
               and UV index as well as temperature, wind speed, and humidity for
               the next five days. This information is pulled directly from the
-              server-side Open Weather API.
+              server-side, third-party Open Weather API and utilizes local
+              storage.
             </p>
           </div>
         </div>
+      </div>
 
-          
+      <h6 class="center">Back-end Projects</h6>
+      <div class="p-0 m-0 d-flex center">
+        <div class="row center p-3 pb-5">
+          <div class="d-flex center col-lg-4 col-md-9 col-sm-12 p-1 container">
+            <p class="text-white p-1">
+              An e-commerce back-end site that enables a company to search
+              through their database to find all pertinent information regarding
+              their products. This site takes a working Express.js API and configures it to use Sequelize to interact with a MySQL database. Click on the picture to head to my
+              demonstration video.
+            </p>
+          </div>
+          <div class="d-flex center col-lg-1 col-md-2 col-sm-12 p-1 container">
+            <a href="https://drive.google.com/file/d/1XbG6iSZe4a4S4TODgoAJkuljcP4bRAEi/view" target="blank" class="center">
+              <img src="https://user-images.githubusercontent.com/101753839/181265905-c9e3d13a-0326-4075-9d78-bc3d7933590d.png" alt="Tech at Your Step e-commerce" class="extra" />
+            </a>
+          </div>
+
+          <div class="d-flex center col-lg-4 col-md-9 col-sm-12 p-1 container">            
+            <p class="text-white p-1">
+              An API for a social network web application where users can share
+              their thoughts, react to friends' thoughts, and create a friend
+              list. Express.js was used for routing, MongoDB as the NoSQL
+              database, and the Mongoose ODM. Click on the picture to head to my
+              demonstration video.
+            </p>
+          </div>
+          <div class="d-flex center col-lg-1 col-md-2 col-sm-12 p-1 container">
+            <a href="https://drive.google.com/file/d/1XbG6iSZe4a4S4TODgoAJkuljcP4bRAEi/view" target="blank" class="center">
+              <img src="https://user-images.githubusercontent.com/101753839/181265905-c9e3d13a-0326-4075-9d78-bc3d7933590d.png" alt="Social Network API" class="extra" />
+            </a>
+          </div>
+        </div>
       </div>
     </Container>
   );

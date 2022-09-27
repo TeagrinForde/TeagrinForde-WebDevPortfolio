@@ -5,7 +5,7 @@ import Pic from "../img/ProfilePic.jpg";
 export default function About() {
   return (
     <Container id="about">
-      <div>
+      <div class="pt-5">
         <div class="row center">
           <h1 class="aboutMe">Who is Teagrin Forde?</h1>
         </div>
