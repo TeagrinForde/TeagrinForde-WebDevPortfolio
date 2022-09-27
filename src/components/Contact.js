@@ -22,7 +22,7 @@ export default function Contact() {
     <Container id="contact">
       <div className="container p-5">
         <h1 class="center">Get In Touch</h1>
-        <div className="container row col-12" class="center">
+        <div className="row col-12" class="center">
           <div
             className="container col-lg-7 col-sm-12 col-md-9"
             id="formContain"
@@ -100,8 +100,8 @@ export default function Contact() {
             </form>
           </div>
 
-          <ul className="container col-lg-2 col-sm-2 col-md-2">
-            <li className="container contactIcons">
+          <ul className="container col-lg-2 col-sm-12 col-md-1">
+            <li className="contactIcons">
               <a
                 href="https://github.com/TeagrinForde"
                 className="card"
@@ -115,7 +115,7 @@ export default function Contact() {
                 />
               </a>
             </li>
-            <li className="container contactIcons">
+            <li className="contactIcons">
               <a
                 href="https://www.linkedin.com/in/teagrin-forde-pmp-519422197/"
                 className="card"
@@ -129,7 +129,7 @@ export default function Contact() {
                 />
               </a>
             </li>
-            <li className="container contactIcons">
+            <li className="contactIcons">
               <a
                 href="https://stackoverflow.com/users/19309045/teagrin-forde/"
                 className="card"
@@ -143,7 +143,7 @@ export default function Contact() {
                 />
               </a>
             </li>
-            <li className="container contactIcons">
+            <li className="contactIcons">
               <a
                 href="https://www.discordapp.com/users/998714595420143666"
                 className="card"
@@ -159,7 +159,7 @@ export default function Contact() {
                 />
               </a>
             </li>
-            <li className="container contactIcons">
+            <li className="contactIcons">
               <a
                 href="https://acmeco.slack.com/team/U03KABTAZAR"
                 className="card"
