@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import originalPortfolio from "../img/originalPortfolio.png";
+import SWC from "../img/SWC.png";
 
 export default function MyStory() {
   const pic = { height: "5rem" };
@@ -34,13 +35,29 @@ export default function MyStory() {
             <img
               src={originalPortfolio}
               alt="Front-end First Portfolio"
-              class="pic"
+              class="pic round"
             />
           </a>
         </div>
 
         <div class="col-lg-9 col-md-12 col-sm-12 project text-center p-5">
-        In June of 2022, I started the Georgia Institute of Technology Full-Stack Development Bootcamp, where all the skills I have gained throughout my life were tested. The Bootcamp was a 12-week intensive program focused on gaining technical programming skills. In the first month, we covered Front-end languages and applications such as HTML, CSS, JavaScript, Git, GitHub, GitLab, Web APIs, third-party APIs, Web APIs, and Server-Side APIs. The computer and phone display to the left (above if using mobile or tablet) is a link to the site. The second month covered Back-end languages, applications, and concepts like Node.js, OOP, Express.js, SQL, ORM, and MVC. The final month taught us Computer Science specific applications that are useful when seeking a career in full-stack development. A few of these applications included NoSQL, PWA, React, MERN, and State. Towards the end of the Bootcamp, I created my new portfolio (yes… this one) to better example my current abilities. Below are links to a few projects completed throughout the Bootcamp, certifications earned, and my RESUME for you to check out. Let's build something together!
+          In June of 2022, I started the Georgia Institute of Technology
+          Full-Stack Development Bootcamp, where all the skills I have gained
+          throughout my life were tested. The Bootcamp was a 12-week intensive
+          program focused on gaining technical programming skills. In the first
+          month, we covered Front-end languages and applications such as HTML,
+          CSS, JavaScript, Git, GitHub, GitLab, Web APIs, third-party APIs, Web
+          APIs, and Server-Side APIs. The computer and phone display to the left
+          (above if using mobile or tablet) is a link to the site. The second
+          month covered Back-end languages, applications, and concepts like
+          Node.js, OOP, Express.js, SQL, ORM, and MVC. The final month taught us
+          Computer Science specific applications that are useful when seeking a
+          career in full-stack development. A few of these applications included
+          NoSQL, PWA, React, MERN, and State. Towards the end of the Bootcamp, I
+          created my new portfolio (yes… this one) to better example my current
+          abilities. Below are links to a few projects completed throughout the
+          Bootcamp, certifications earned, and my RESUME for you to check out.
+          Let's build something together!
         </div>
       </div>
 
@@ -57,7 +74,11 @@ export default function MyStory() {
         </div>
 
         <div class="center col-lg-4 col-md-4 col-sm-12">
-          <a href="https://drive.google.com/file/d/1xWC6RdNdG_GEA--qATNrKKgnk-wzBfoF/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://drive.google.com/file/d/1xWC6RdNdG_GEA--qATNrKKgnk-wzBfoF/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fzeen.com%2Fwp-content%2Fuploads%2F2021%2F02%2Fcoursera.png&f=1&nofb=1&ipt=fa94dc4d8a977d990b288e7fe95cd6716a0bc18eb34f2d1b80f6f3020485d1b4&ipo=imagess"
               alt="Coursera PMP Certificate"
@@ -68,7 +89,11 @@ export default function MyStory() {
         </div>
 
         <div class="center col-lg-4 col-md-4 col-sm-12">
-          <a href="https://drive.google.com/file/d/1dGzupb1i8I6tEamtKYnZ7w_wqkU822-r/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://drive.google.com/file/d/1dGzupb1i8I6tEamtKYnZ7w_wqkU822-r/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kumiteclassic.com%2Fwp-content%2Fuploads%2F2016%2F10%2Fresume-icon-png-1.png&f=1&nofb=1&ipt=686cbce06a8a0671bd5795418cfdffa140e33ffb01e390f8b442172226189ab8&ipo=images"
               alt="Teagrin Forde, PMP Resume"
@@ -79,8 +104,54 @@ export default function MyStory() {
         </div>
       </div>
 
-      <div class="extraProjects p-5 d-flex center container">
+      <h2 class="center row pt-4 pb-4">Additional Projects</h2>
+      <div class="p-0 m-0 d-flex center">
+        <div class="row center">
+          <div class="d-flex center col-lg-1 col-md-2 col-sm-12 p-1">
+            <a
+              href="https://teagrinforde.github.io/wellness-project/"
+              target="blank"
+              class="center"
+            >
+              <img src={SWC} alt="Sunshine Wellness Center" class="extra" />
+            </a>
+          </div>
+          <div class="d-flex center col-lg-5 col-md-9 col-sm-12 p-1">
+            <p class="text-white p-1">
+              A front-end mental health website that provides a daily check-up
+              quiz created using JavaScript and stored on the client side. The
+              site utilizes two server-side APIs connecting to a personal health
+              widget on the Health.org website and a slideshow of dog photos to
+              help relieve stress, with a responsive and polished UI design.
+            </p>
+          </div>
 
+          <div class="d-flex center col-lg-3 col-md-5 col-sm-12 p-1">
+            <a
+              href="https://teagrinforde.github.io/TFordeWeatherDashboard/"
+              target="blank"
+              class="center"
+            >
+              <img
+                src="https://user-images.githubusercontent.com/101753839/178364173-d71a6353-8750-498b-ae18-5eb4a6224816.png"
+                alt="Weather Dashboard"
+                class="extra"
+              />
+            </a>
+            </div>
+          <div class="d-flex center col-lg-3 col-md-6 col-sm-12 p-1">
+            <p class="text-white p-1">
+              An front-end, interactive dashboard that allows users to look up
+              the weekly weather information in any city around the United
+              States to determine the current temperature, wind speed, humidty,
+              and UV index as well as temperature, wind speed, and humidity for
+              the next five days. This information is pulled directly from the
+              server-side Open Weather API.
+            </p>
+          </div>
+        </div>
+
+          
       </div>
     </Container>
   );
