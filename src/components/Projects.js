@@ -363,6 +363,9 @@ export default function Projects() {
       <h6 class="center title">
         Seeking full-time employment
       </h6>
+      <h6 class="center title">
+        Part-time Instructional Specialist ~ 2U/Georgia Institute of Technology Web Development
+      </h6>
       <h6 class="center title">Everest Material Handling ~ Contract</h6>
       <h6 class="center title">Be Your Best Inc. ~ Contract</h6>
       <h6 class="center m-0">
