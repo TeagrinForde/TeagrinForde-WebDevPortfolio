@@ -63,7 +63,7 @@ export default function MyStory() {
 
       <div class="docs p-5 d-flex center container">
         <div class="center col-lg-4 col-md-4 col-sm-12">
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/18rs8H1fNn0Y-59YAz383Kj_bZv-HmO7x/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F103320749%2Fdisp%2Fb43e9f95326a27aa23fdf7773fc8c63e.png&f=1&nofb=1&ipt=e697ed5fc2b49d513ad8191bbbe43e45a9127129832f21eb6185fdb3da23ebcc&ipo=images"
               alt="Georgia Tech Full-Stack Bootcamp Certificate"
