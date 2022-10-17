@@ -45,6 +45,9 @@ export default function SkillsTools() {
           <div className="card" class="icon">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt='HTML5' style={icon}/>
           </div>
+          <div className="card" class="icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Java" style={icon}/>
+          </div>
         </div>
 
         <div className="container" class="containerIcons">
@@ -91,8 +94,8 @@ export default function SkillsTools() {
         
         <div class="pt-5">
         <h4 class="currentlyExp center">Currently exploring</h4>
-        <h6 class='center'>Java</h6>
-        <h6 class='center'>AWS</h6>
+        <h6 class='center'>Udemy - Data Structures and Algorithms</h6>
+        <h6 class='center'>Udemy - AWS Certification</h6>
         <h6 class='center'>Python</h6>
         </div>
       </div>
