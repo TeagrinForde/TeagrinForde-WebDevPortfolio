@@ -106,6 +106,7 @@ export default function MyStory() {
 
       <h2 class="center row pt-4 pb-4">Additional Projects</h2>
 
+      <h6 class="center">Front-end Projects</h6>
       <div class="p-0 m-0 d-flex center">
         <div class="row center p-5">
           <div class="d-flex center col-lg-1 col-md-2 col-sm-12 p-1">
