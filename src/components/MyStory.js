@@ -62,7 +62,7 @@ export default function MyStory() {
       </div>
 
       <div class="docs p-5 d-flex center container">
-        <div class="center col-lg-4 col-md-4 col-sm-12">
+        <div class="center col-lg-2 col-md-2 col-sm-12">
           <a href="https://drive.google.com/file/d/18rs8H1fNn0Y-59YAz383Kj_bZv-HmO7x/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F103320749%2Fdisp%2Fb43e9f95326a27aa23fdf7773fc8c63e.png&f=1&nofb=1&ipt=e697ed5fc2b49d513ad8191bbbe43e45a9127129832f21eb6185fdb3da23ebcc&ipo=images"
@@ -73,7 +73,29 @@ export default function MyStory() {
           </a>
         </div>
 
-        <div class="center col-lg-4 col-md-4 col-sm-12">
+        <div class="center col-lg-2 col-md-2 col-sm-12">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fa0.awsstatic.com%2Flibra-css%2Fimages%2Flogos%2Faws_logo_smile_1200x630.png&f=1&nofb=1&ipt=12c54d12a79a5987d9999b164ead6103d86f041cd4d8809ab13a722ff3deefad&ipo=images"
+              alt="Udemy ~ AWS Cloud Practitioner Certification"
+              style={pic}
+              class="round"
+            />
+          </a>
+        </div>
+
+        <div class="center col-lg-2 col-md-2 col-sm-12">
+          <a href="https://drive.google.com/file/d/1KWgnZV6XInklckgP1n0nXG5_vcdUqe0y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fappdodo.com%2Fuploads%2Fimages%2Fapps%2Fudemy-online-courses-icon.png&f=1&nofb=1&ipt=4f20725e5649863f33f53826f302e5f0c7beeca408ad6a4bb2edf6218fba8b54&ipo=images"
+              alt="Udemy ~ Data Structures and Algorithms Certification"
+              style={pic}
+              class="round"
+            />
+          </a>
+        </div>
+
+        <div class="center col-lg-2 col-md-2 col-sm-12">
           <a
             href="https://drive.google.com/file/d/1xWC6RdNdG_GEA--qATNrKKgnk-wzBfoF/view?usp=sharing"
             target="_blank"
@@ -88,7 +110,7 @@ export default function MyStory() {
           </a>
         </div>
 
-        <div class="center col-lg-4 col-md-4 col-sm-12">
+        <div class="center col-lg-2 col-md-2 col-sm-12">
           <a
             href="https://drive.google.com/file/d/1dGzupb1i8I6tEamtKYnZ7w_wqkU822-r/view?usp=sharing"
             target="_blank"

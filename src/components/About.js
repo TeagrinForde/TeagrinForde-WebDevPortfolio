@@ -24,13 +24,13 @@ export default function About() {
             <div>
               I'm a life-long learner that enjoys creating cutting-edge websites
               and applications with challenging demands and visions. Project
-              manager, team leader, or individual contributor that is an analytical problem-solver with top-notch
-              organizational, prioritization, and scheduling skills.
+              manager, team leader, or individual contributor that is an analytical problem-solver with top-notch organizational, prioritization, and scheduling skills.
             </div>
             <br></br>
             <div>
               <h5>Certifications:</h5>
               <ul>
+                <li><strong class="bold">AWS</strong> Cloud Practitioner Certification</li>
                 <li><strong class="bold">
                 Georgia Institute of Technology Full-Stack Web Development
                 Bootcamp
@@ -52,12 +52,12 @@ export default function About() {
             <div>
               I thrive when I'm creating, learning, exploring and improving
               my environment through collaboration, organiation, and
-              problem-solving. I am currently seeking a full-time position, so
+              problem-solving. I am currently working as an <strong class="bold">Inside Systems Engineer </strong>at <strong class="bold">Uniphore</strong>, but
               feel free to reach out and{" "}
               <a href="#contact" class="link" alt='Contact Me'>say hello</a>!
             </div>
             <br></br>
-            <div class="bold">Last updated September 2022</div>
+            <div class="bold">Last updated November 2022</div>
           </div>          
         </div>
       </div>

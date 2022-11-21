@@ -50,7 +50,7 @@ export default function Projects() {
   const react = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Freact-1-logo-black-and-white.png&f=1&nofb=1"
-      atl="React"
+      alt="React"
       class="round"
       style={icon}
     />
@@ -58,14 +58,14 @@ export default function Projects() {
   const graphQL = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fgraphql-logo-png-transparent.png&f=1&nofb=1"
-      atl="graphQL"
+      alt="graphQL"
       class="round"
       style={icon}
     />
   );
   const mongo = (
     <img
-      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgetdrawings.com%2Ffree-icon%2Fmongodb-icon-59.jpg&f=1&nofb=1"
+      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmpng.subpng.com%2F20190401%2Fzsf%2Fkisspng-mongodb-document-oriented-database-nosql-openshift-web-app-development-servcie-in-dehradun-5ca1b8cb8a0f32.3708278115541024755655.jpg&f=1&nofb=1&ipt=32d447fdde13a40404026f3bf4846ada0d9cab094b1334ce3f64215a2b80324e&ipo=images"
       alt="MongoDB"
       class="round"
       style={icon}
@@ -111,12 +111,14 @@ export default function Projects() {
     <img
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
       style={icon}
+      alt="GitHub"
     />
   );
   const go = (
     <img
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fgo-icon-9.png&f=1&nofb=1"
       style={icon}
+      alt="Go To Site"
     />
   );
 
@@ -359,13 +361,11 @@ export default function Projects() {
         </div>
       </div>
 
-      <h4 class="currently center p-2">Currently working on</h4>
+      <h4 class="currently center p-2">Current work</h4>
       <h6 class="center title">
-        Seeking full-time employment
+        Inside Systems Engineer at Uniphore
       </h6>
-      <h6 class="center title">
-        Part-time Instructional Specialist ~ 2U/Georgia Institute of Technology Web Development
-      </h6>
+      <br/>
       <h6 class="center title">Everest Material Handling ~ Contract</h6>
       <h6 class="center title">Be Your Best Inc. ~ Contract</h6>
       <h6 class="center m-0">
