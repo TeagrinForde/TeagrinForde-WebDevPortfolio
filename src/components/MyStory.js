@@ -74,7 +74,7 @@ export default function MyStory() {
         </div>
 
         <div class="center col-lg-2 col-md-2 col-sm-12">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1awW__m56U4GKzaz-3Xo_VwKt8LYeExWh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fa0.awsstatic.com%2Flibra-css%2Fimages%2Flogos%2Faws_logo_smile_1200x630.png&f=1&nofb=1&ipt=12c54d12a79a5987d9999b164ead6103d86f041cd4d8809ab13a722ff3deefad&ipo=images"
               alt="Udemy ~ AWS Cloud Practitioner Certification"
